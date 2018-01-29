@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'mfw';
+    src: url('mfw.eot');
+    src: url('mfw.eot?#iefix') format('embedded-opentype'),
+         url('mfw.woff2') format('woff2'),
+         url('mfw.woff') format('woff'),
+         url('mfw.ttf') format('truetype'),
+         url('mfw.svg#marker_feltwide') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
