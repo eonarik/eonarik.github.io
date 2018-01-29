@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Index page
+    </title>
+  <link href="./css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__nav"><a class="header__logo" href="/"><img src="img/logo.png" alt=""></a>
+          <nav class="nav-header">
+            <ul>
+              <li class="active"><a href="#">Накопить бонусы</a></li>
+              <li><a href="#">Списать бонусы</a></li>
+              <li><a href="#">Партнеры</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Карта "Тройка"</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__ext">
+          <div class="header__search"><img src="img/icon-search.png" alt=""></div>
+          <div class="header__burger"><span></span><span></span><span></span></div>
+          <div class="header__auth"><a class="header__auth-link" href="#modal-auth" data-toggle="modal">Войти</a></div>
+        </div>
+      </div>
+      <div class="search">
+        <div class="container search__container">
+          <div class="row">
+            <div class="col-sm-8 offset-sm-3 offset-md-2">
+              <form class="search__form">
+                <input class="search__input" type="text" name="s">
+                <button class="search__btn" type="submit"><img src="img/icon-search.png" alt=""></button>
+              </form>
+            </div>
+          </div><a class="search__close" href="#"></a>
+        </div>
+      </div>
+    </header>
+    <div class="container" style="margin: 20px auto;"><a class="btn btn-primary" data-toggle="modal" href="#modal-add-award">Add award</a>
+      <div class="modal modal--map add-award fade" id="modal-add-award">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true"><span class="icon icon--close"></span></button>
+              <div class="add-award__header"><img src="img/award-bear.png" alt="">
+                <div>
+                  <div class="add-award__title">Поздравляем!</div>
+                  <div class="add-award__title add-award__title--sub">У вас новая награда</div>
+                </div>
+              </div>
+              <p>Вы получили новую награду за супер задродство. Вы просидели в активном поиске на нашем сайте более 72 часов.</p>
+            </div>
+            <div class="modal-footer">
+              <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="button" data-dismiss="modal">Готово</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><a class="btn btn-primary" data-toggle="modal" href="#modal-awards">Awards</a>
+      <div class="modal modal--map awards fade" id="modal-awards">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true"><span class="icon icon--close"></span></button>
+              <div class="modal__title">Мои награды</div>
+              <p class="modal__subtitle">Все ваши награды за выслугу лет и лояльность к нашей программе</p>
+              <div class="awards__list">
+                <div class="awards__list-item"><img class="awards__item-image" src="img/award-bear.png" alt="">
+                  <div class="awards__item-title">За лояльность</div>
+                </div>
+                <div class="awards__list-item"><img class="awards__item-image" src="img/award-medal.png" alt="">
+                  <div class="awards__item-title">Скорострел</div>
+                </div>
+                <div class="awards__list-item"><img class="awards__item-image" src="img/award-cup.png" alt="">
+                  <div class="awards__item-title">Первый на селе</div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="button" data-dismiss="modal">Готово</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><a class="btn btn-primary" data-toggle="modal" href="#modal-tab">Tab</a>
+      <div class="modal modal--map fade" id="modal-tab">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true"><span class="icon icon--close"></span></button>
+              <div class="modal__title">История жетонов</div>
+              <p class="modal__subtitle">Вы можете активировать доступные вам опции в любой момент.</p>
+              <div class="data-table">
+                <table class="data-table__table">
+                  <thead>
+                    <tr>
+                      <td class="data-table__sort data-table__sort--desc">Дата</td>
+                      <td>Действие</td>
+                      <td>Начислено</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>30 сен</td>
+                      <td>Поездок по карте: недельно</td>
+                      <td class="data-table__price"><span class="icon icon--coin"></span><strong>25</strong></td>
+                    </tr>
+                    <tr>
+                      <td>26 сен</td>
+                      <td>Поездок по карте: Подряд дней</td>
+                      <td class="data-table__price"><span class="icon icon--coin"></span><strong>15</strong></td>
+                    </tr>
+                    <tr>
+                      <td>25 сен</td>
+                      <td>Использовал бонусы для пополнения</td>
+                      <td class="data-table__price"><span class="icon icon--coin"></span><strong>100</strong></td>
+                    </tr>
+                    <tr>
+                      <td>12 сен</td>
+                      <td>Использовал бонусы для пополнения</td>
+                      <td class="data-table__price"><span class="icon icon--coin"></span><strong>10</strong></td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td class="data-table__price"><span class="icon icon--pig"></span><strong>305</strong></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="button" data-dismiss="modal">Готово</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><a class="btn btn-primary" data-toggle="modal" href="#modal-option">Option</a>
+      <div class="modal modal--map fade" id="modal-option">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true"><span class="icon icon--close"></span></button>
+              <div class="modal__title">Мои опции</div>
+              <p class="modal__subtitle">Вы можете активировать доступные вам опции в любой момент.</p>
+              <div class="options">
+                <div class="options__nav">
+                  <div class="options__arrow options__arrow--up"></div>
+                  <div class="options__arrow options__arrow--down"></div>
+                </div>
+                <div class="options__wrapper">
+                  <div class="options__list">
+                    <div class="options__item">
+                      <div class="options__image"><img src="img/bonus-1.png" alt=""></div>
+                      <div class="options__body">
+                        <div class="options__title">Действует до <span>20.10</span></div>
+                        <div class="options__description">Дополнительные 5% бонусов за все покупки</div>
+                        <div class="options__category">Категория: одежда и обувь</div>
+                      </div>
+                      <div class="options__action">
+                        <label class="check-box">
+                          <input type="checkbox" checked=""><span></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="options__item">
+                      <div class="options__image"><img src="img/bonus-2.png" alt=""></div>
+                      <div class="options__body">
+                        <div class="options__title">Действует до <span>28.09</span></div>
+                        <div class="options__description">Повышенный на 10% опыт за квесты и действия на 3 дня</div>
+                      </div>
+                      <div class="options__action">
+                        <label class="check-box">
+                          <input type="checkbox"><span></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="options__item">
+                      <div class="options__image"><img src="img/bonus-3.png" alt=""></div>
+                      <div class="options__body">
+                        <div class="options__title">Лето завершено <span>01.09</span></div>
+                        <div class="options__description">Понижение вашего опыта на 50% за ошибки, глупые вопросы и туфту на 2 дня</div>
+                      </div>
+                      <div class="options__action">
+                        <label class="check-box">
+                          <input type="checkbox" disabled=""><span></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="options__item">
+                      <div class="options__image"><img src="img/bonus-2.png" alt=""></div>
+                      <div class="options__body">
+                        <div class="options__title">Действует до <span>28.09</span></div>
+                        <div class="options__description">Повышенный на 10% опыт за квесты и действия на 3 дня</div>
+                      </div>
+                      <div class="options__action">
+                        <label class="check-box">
+                          <input type="checkbox"><span></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="options__item">
+                      <div class="options__image"><img src="img/bonus-3.png" alt=""></div>
+                      <div class="options__body">
+                        <div class="options__title">Лето завершено <span>01.09</span></div>
+                        <div class="options__description">Понижение вашего опыта на 50% за ошибки, глупые вопросы и туфту на 2 дня</div>
+                      </div>
+                      <div class="options__action">
+                        <label class="check-box">
+                          <input type="checkbox" disabled=""><span></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="button">Сохранить</button>
+                <button class="btn btn-default btn-lg" type="button" data-dismiss="modal">Отмена</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><a class="btn btn-primary" data-toggle="modal" href="#modal-map-win">Map win</a>
+      <div class="modal modal--map map-win fade" id="modal-map-win">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" type="button" data-dismiss="modal" aria-hidden="true"><span class="icon icon--close"></span></button>
+              <div class="map-win__header">
+                <div class="map-win__level"><img src="img/icon-level-1.png" alt="">
+                  <div class="map-win__level-status">Житель</div>
+                  <div class="map-win__level-coins">75 <span class="icon icon--coin"></span></div>
+                </div>
+                <div>
+                  <div class="map-win__title">Поздравляем!</div>
+                  <div class="map-win__title map-win__title--sub">Вы достигли <span>1</span> уровня</div>
+                </div>
+              </div>
+              <p>Теперь Вы настоящий Житель этого города. У вас повысился повышающий процент в Программе лояльности «Город».</p>
+              <p>Вам доступны квесты —</p>
+              <div class="map-win__quests">
+                <div class="map-win__quests-item"><img src="img/icon-shield-1-1.png" alt="">
+                  <div class="map-win__quests-title">Жетоны за передвижение</div>
+                </div>
+                <div class="map-win__quests-item"><img src="img/icon-shield-2-1.png" alt="">
+                  <div class="map-win__quests-title">Жетоны за покупки</div>
+                </div>
+                <div class="map-win__quests-item"><img src="img/icon-shield-3-1.png" alt="">
+                  <div class="map-win__quests-title">Жетоны за приложение</div>
+                </div>
+                <div class="map-win__quests-item"><img src="img/icon-shield-4-1.png" alt="">
+                  <div class="map-win__quests-title">Жетоны за карту «Тройка»</div>
+                </div>
+                <div class="map-win__quests-item"><img src="img/icon-shield-5-1.png" alt="">
+                  <div class="map-win__quests-title">Жетоны за партнеров</div>
+                </div>
+              </div>
+              <p><strong>Задание:</strong> Собери 150 жетонов и стань Коренным жителем своего города!</p>
+            </div>
+            <div class="modal-footer">
+              <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="button">Начать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo"><img src="img/logo-footer.png" alt="">
+            <p class="footer__copy">
+              Программа <br>
+              лояльности <br>
+              «Город» <br>
+              &copy; 2017
+            </p>
+          </div>
+          <div class="footer__menu">
+            <ul>
+              <li><a href="#">О Программе «Город»</a></li>
+              <li><a href="#">Правила Программы</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Стать Партнером</a></li>
+              <li><a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <div class="footer__support">
+            <div>Служба поддержки:</div>
+            <div class="footer__support-phone">+7 (495) 123-3300</div>
+            <div class="footer__support-email">contact@troika-gorod.ru</div>
+            <div class="footer__logo-metro"><img src="img/icon-metro-footer.png" alt=""></div>
+          </div>
+          <div class="footer__apps">
+            <div class="footer__apps-links"><a href="#"><img src="img/app-store.png" alt=""></a><a href="#"><img src="img/google-play.png" alt=""></a></div>
+            <p>
+               Установите бесплатное приложение <br>
+              «Город» прямо сейчас
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal modal-auth fade" id="modal-auth">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Войти в &laquo;Город&raquo;</h4>
+            <div class="modal-subtitle">Для регистрации или авторизации введите свой номер телефона</div>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="+7 (XXX) XXX-XX-XX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <div class="form-notify form-notify--warning">Номер телефона может состоять только из 10 цифр</div>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label input-group--error">
+                  <label>Это неверный пароль:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p><a href="#">Я забыл пароль</a></p>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label">
+                  <label>Введите код из SMS:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p class="text-muted">Берегитесь мошенников. Никому не сообщайте SMS-код или пароль.</p>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p class="text-muted">Нажимая кнопку «Войти», вы соглашаетесь с условиями <a href="#" target="_blank">оферты</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-default fade" id="modal-not-lost-bonus">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Как не потерять Бонусы —</h4>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>
+                <p><span class="bold">Авторизуйтесь в Личном кабинете перед покупкой</span></p>
+                <p>Перед покупкой обязательно авторизуйтесь в Личном кабинете Программы лояльности «Город» и переходите в магазин по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li>
+                <p><span class="bold">Не сохраняйте товары в Корзине без Авторизации в Личном кабинете</span></p>
+                <p>Не откладывайте товары в Корзину до того, как не пройдете авторизацию в Личном кабинете Программы лояльности «Город» и перейдете на сайт магазина по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li> 
+                <p><span class="bold">Не отключайте поддержку Cookies</span></p>
+                <p>Если у Вас отключена функция поддержки Cookies, её необходимо подключить перед Авторизацией в Программе «Город» и совершением покупки. </p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+            </ol>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/app.js"></script></body>
+</html>

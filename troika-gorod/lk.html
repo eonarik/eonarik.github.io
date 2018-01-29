@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Index page
+    </title>
+  <link href="./css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__nav"><a class="header__logo" href="/"><img src="img/logo.png" alt=""></a>
+          <nav class="nav-header">
+            <ul>
+              <li class="active"><a href="#">Накопить бонусы</a></li>
+              <li><a href="#">Списать бонусы</a></li>
+              <li><a href="#">Партнеры</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Карта "Тройка"</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__ext">
+          <div class="header__search"><img src="img/icon-search.png" alt=""></div>
+          <div class="header__burger"><span></span><span></span><span></span></div>
+          <div class="header__auth"><a class="header__auth-link" href="#modal-auth" data-toggle="modal">Войти</a></div>
+        </div>
+      </div>
+      <div class="search">
+        <div class="container search__container">
+          <div class="row">
+            <div class="col-sm-8 offset-sm-3 offset-md-2">
+              <form class="search__form">
+                <input class="search__input" type="text" name="s">
+                <button class="search__btn" type="submit"><img src="img/icon-search.png" alt=""></button>
+              </form>
+            </div>
+          </div><a class="search__close" href="#"></a>
+        </div>
+      </div>
+    </header>
+    <section class="top-info">
+      <div class="container">
+        <div class="top-info__container">
+          <ul class="top-info__nav">
+            <li><a class="top-info__nav-item" href="#"><span>Личный кабинет</span></a></li>
+            <li><a class="top-info__nav-item top-info__nav-item--underline" href="#"><span>Опции</span><span class="top-info__nav-badge">2</span></a></li>
+            <li><a class="top-info__nav-item top-info__nav-item--underline" href="#"><span>История</span></a></li>
+          </ul>
+          <div class="top-info__main">
+            <div class="top-info__level"><span class="top-info__main-number">1</span><span>уровень</span></div>
+            <div class="top-info__cost"><span class="top-info__main-number">76</span><span>жетонов</span></div>
+          </div>
+          <div class="top-info__gifts"><span>Награды:</span><a class="top-info__gifts-item hint" href="#"><img src="img/icon-cup.png" alt=""><span class="hint__text">Топ-топ менеджер</span></a><a class="top-info__gifts-item hint" href="#"><img src="img/icon-medal.png" alt=""><span class="hint__text">Топ-топ менеджер</span></a><a class="top-info__gifts-item hint" href="#"><img src="img/icon-bear.png" alt=""><span class="hint__text">Топ-топ менеджер</span></a><a class="top-info__gifts-more hint" href="#"><span class="hint__text">Еще</span></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="achievs">
+      <div class="container">
+        <div class="owl-carousel" data-items="4" data-margin="0" data-nav="">
+          <div class="achievs__item">
+            <div class="achievs__section">
+              <div class="achievs__info"><img class="achievs__info-image" src="img/icon-shield-1-1.png" alt="">
+                <div class="achievs__info-tape">
+                  <div class="achievs__info-tape-inner achievs__info-tape-inner--blue"><span>75</span><span> из </span><span>100</span><span class="icon icon--coin achievs__info-coin"></span></div>
+                </div>
+              </div>
+              <div class="achievs__section-title">Передвижение</div>
+            </div>
+            <div class="achievs__list">
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Недельно</div>
+                  <div class="achievs__list-values"><span>2</span><span>/</span><span>15</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 10%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Месячно</div>
+                  <div class="achievs__list-values"><span>10</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 33%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Подряд дней</div>
+                  <div class="achievs__list-values"><span>15</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 50%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">До 8 часов, дней подряд</div>
+                  <div class="achievs__list-values"><span>0</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 0%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">После 21 часа, дней подряд</div>
+                  <div class="achievs__list-values"><span>0</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 0%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item achievs__list-item--complete">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Поездки на разном транспорте в день</div>
+                  <div class="achievs__list-values"><span>5</span><span>/</span><span>5</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 100%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item achievs__list-item--complete">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Поездки на 3 типах транспорта в день</div>
+                  <div class="achievs__list-values"><span>5</span><span>/</span><span>5</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #70bdff; width: 100%;"></span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="achievs__item">
+            <div class="achievs__section">
+              <div class="achievs__info"><img class="achievs__info-image" src="img/icon-shield-2-1.png" alt="">
+                <div class="achievs__info-tape">
+                  <div class="achievs__info-tape-inner achievs__info-tape-inner--green"><span>181</span><span> из </span><span>512</span><span class="icon icon--coin achievs__info-coin"></span></div>
+                </div>
+              </div>
+              <div class="achievs__section-title">Покупки</div>
+            </div>
+            <div class="achievs__list">
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Потратил за раз</div>
+                  <div class="achievs__list-values"><span>5000</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #69d263; width: 25%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Потратил</div>
+                  <div class="achievs__list-values"><span>2500</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #69d263; width: 60%;"></span></span></div>
+                </div>
+                <div class="achievs__list-description achievs__list-description--open">
+                  <h4 class="achievs__list-description-title"><span class="icon icon--coin"></span><span>2500</span><span> из </span><span>10000</span></h4>
+                  <p>Для достижения цели Вам потребуется совершить покупки на общую сумму <span>10000</span> рублей и предъявить карту «Тройка». Пока вы совершили покупок на <span>2500</span> рублей, осталось еще <span>7500</span>.</p>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Использовал бонусов</div>
+                  <div class="achievs__list-values"><span>100</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #69d263; width: 10%;"></span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="achievs__item">
+            <div class="achievs__section">
+              <div class="achievs__info"><img class="achievs__info-image" src="img/icon-shield-3-1.png" alt="">
+                <div class="achievs__info-tape">
+                  <div class="achievs__info-tape-inner achievs__info-tape-inner--pink"><span>280</span><span> из </span><span>650</span><span class="icon icon--coin achievs__info-coin"></span></div>
+                </div>
+              </div>
+              <div class="achievs__section-title">Приложение</div>
+            </div>
+            <div class="achievs__list">
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Времени в программе, дней</div>
+                  <div class="achievs__list-values"><span>2</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #fc78a7; width: 7%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Заходов в приложение, дней</div>
+                  <div class="achievs__list-values"><span>10</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #fc78a7; width: 33%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item achievs__list-item--complete">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Переходов к партнерам</div>
+                  <div class="achievs__list-values"><span>30</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #fc78a7; width: 100%;"></span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="achievs__item">
+            <div class="achievs__section">
+              <div class="achievs__info"><img class="achievs__info-image" src="img/icon-shield-4-1.png" alt="">
+                <div class="achievs__info-tape">
+                  <div class="achievs__info-tape-inner achievs__info-tape-inner--blue"><span>0</span><span> из </span><span>1500</span><span class="icon icon--coin achievs__info-coin"></span></div>
+                </div>
+              </div>
+              <div class="achievs__section-title">Карта «Тройка»</div>
+            </div>
+            <div class="achievs__list">
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Пополнил раз</div>
+                  <div class="achievs__list-values"><span>2</span><span>/</span><span>15</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #4fbfdb; width: 15%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Пополнил на сумму</div>
+                  <div class="achievs__list-values"><span>10</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #4fbfdb; width: 33%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Использовал бонусы для пополнения</div>
+                  <div class="achievs__list-values"><span>15</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #4fbfdb; width: 50%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Пополнял за месяц</div>
+                  <div class="achievs__list-values"><span>0</span><span>/</span><span>30</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #4fbfdb; width: 0%;"></span></span></div>
+                </div>
+              </div>
+              <div class="achievs__list-item">
+                <div class="achievs__list-inner">
+                  <div class="achievs__list-title">Траты за день</div>
+                  <div class="achievs__list-values"><span>2</span><span>/</span><span>15</span><span class="achievs__list-progress"><span class="achievs__list-progress-bar" style="background: #4fbfdb; width: 12%;"></span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="achievs__item">
+            <div class="achievs__section">
+              <div class="achievs__info"><img class="achievs__info-image" src="img/icon-shield-5-1.png" alt="">
+                <div class="achievs__info-tape">
+                  <div class="achievs__info-tape-inner achievs__info-tape-inner--yellow"><span>2151</span><span> из </span><span>5000</span><span class="icon icon--coin achievs__info-coin"></span></div>
+                </div>
+              </div>
+              <div class="achievs__section-title">Партнеры</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stages">
+      <div class="stages__layer stages__layer--1"></div>
+      <div class="stages__layer stages__layer--2"></div>
+      <div class="stages__layer stages__layer--3"></div>
+      <div class="stages__layer stages__layer--4"></div>
+      <div class="owl-carousel" data-items="5" data-nav="">
+        <div class="stages__item stages__item--active">
+          <div class="stages__image"><img src="img/stage-dweller.png" alt=""></div><img class="stages__pointer" src="img/dweller-1.png" alt="">
+          <div class="stages__title">Житель</div>
+        </div>
+        <div class="stages__item stages__item--active">
+          <div class="stages__image"><img src="img/stage-root-dweller.png" alt=""></div><img class="stages__pointer" src="img/dweller-2.png" alt="">
+          <div class="stages__title">Коренной житель</div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__image"><img src="img/stage-honorary-sitizen.png" alt=""></div><img class="stages__pointer" src="img/dweller-3.png" alt="">
+          <div class="stages__title">Почетный гражданин</div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__image"><img src="img/stage-upravdom.png" alt=""></div><img class="stages__pointer" src="img/dweller-4.png" alt="">
+          <div class="stages__title">Управдом</div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__image"><img src="img/stage-prefect.png" alt=""></div><img class="stages__pointer" src="img/dweller-5.png" alt="">
+          <div class="stages__title">Префект</div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__image"><img src="img/stage-vice-mayor.png" alt=""></div><img class="stages__pointer" src="img/dweller-6.png" alt="">
+          <div class="stages__title">Вице-мэр</div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__image"><img src="img/stage-mayor.png" alt=""></div>
+          <div class="stages__title">Мэр</div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo"><img src="img/logo-footer.png" alt="">
+            <p class="footer__copy">
+              Программа <br>
+              лояльности <br>
+              «Город» <br>
+              &copy; 2017
+            </p>
+          </div>
+          <div class="footer__menu">
+            <ul>
+              <li><a href="#">О Программе «Город»</a></li>
+              <li><a href="#">Правила Программы</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Стать Партнером</a></li>
+              <li><a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <div class="footer__support">
+            <div>Служба поддержки:</div>
+            <div class="footer__support-phone">+7 (495) 123-3300</div>
+            <div class="footer__support-email">contact@troika-gorod.ru</div>
+            <div class="footer__logo-metro"><img src="img/icon-metro-footer.png" alt=""></div>
+          </div>
+          <div class="footer__apps">
+            <div class="footer__apps-links"><a href="#"><img src="img/app-store.png" alt=""></a><a href="#"><img src="img/google-play.png" alt=""></a></div>
+            <p>
+               Установите бесплатное приложение <br>
+              «Город» прямо сейчас
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal modal-auth fade" id="modal-auth">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Войти в &laquo;Город&raquo;</h4>
+            <div class="modal-subtitle">Для регистрации или авторизации введите свой номер телефона</div>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="+7 (XXX) XXX-XX-XX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <div class="form-notify form-notify--warning">Номер телефона может состоять только из 10 цифр</div>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label input-group--error">
+                  <label>Это неверный пароль:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p><a href="#">Я забыл пароль</a></p>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label">
+                  <label>Введите код из SMS:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p class="text-muted">Берегитесь мошенников. Никому не сообщайте SMS-код или пароль.</p>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p class="text-muted">Нажимая кнопку «Войти», вы соглашаетесь с условиями <a href="#" target="_blank">оферты</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-default fade" id="modal-not-lost-bonus">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Как не потерять Бонусы —</h4>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>
+                <p><span class="bold">Авторизуйтесь в Личном кабинете перед покупкой</span></p>
+                <p>Перед покупкой обязательно авторизуйтесь в Личном кабинете Программы лояльности «Город» и переходите в магазин по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li>
+                <p><span class="bold">Не сохраняйте товары в Корзине без Авторизации в Личном кабинете</span></p>
+                <p>Не откладывайте товары в Корзину до того, как не пройдете авторизацию в Личном кабинете Программы лояльности «Город» и перейдете на сайт магазина по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li> 
+                <p><span class="bold">Не отключайте поддержку Cookies</span></p>
+                <p>Если у Вас отключена функция поддержки Cookies, её необходимо подключить перед Авторизацией в Программе «Город» и совершением покупки. </p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+            </ol>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/app.js"></script></body>
+</html>

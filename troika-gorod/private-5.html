@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Private page
+    </title>
+  <link href="./css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__nav"><a class="header__logo" href="/"><img src="img/logo.png" alt=""></a>
+          <nav class="nav-header">
+            <ul>
+              <li class="active"><a href="#">Накопить бонусы</a></li>
+              <li><a href="#">Списать бонусы</a></li>
+              <li><a href="#">Партнеры</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Карта "Тройка"</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__ext">
+          <div class="header__search"><img src="img/icon-search.png" alt=""></div>
+          <div class="header__burger"><span></span><span></span><span></span></div>
+          <div class="header__auth">
+            <div class="header__auth-avatar"><img src="img/user-avatar-default.png" alt=""></div>
+            <div class="header__auth-balans">Баланс &nbsp;<span>10 000</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="search">
+        <div class="container search__container">
+          <div class="row">
+            <div class="col-sm-8 offset-sm-3 offset-md-2">
+              <form class="search__form">
+                <input class="search__input" type="text" name="s">
+                <button class="search__btn" type="submit"><img src="img/icon-search.png" alt=""></button>
+              </form>
+            </div>
+          </div><a class="search__close" href="#"></a>
+        </div>
+      </div>
+    </header>
+    <section class="private">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-9 offset-md-3">
+            <div class="private__select-name">
+              <div class="private__history-filter"><span>История операций</span>
+                <div class="filter"><a class="filter__btn filter__btn--active" href="#">За всё время</a><a class="filter__btn" href="#">За неделю</a><a class="filter__btn" href="#">За месяц</a><a class="filter__btn" href="#">За год</a><a class="filter__btn" href="#">За игру</a><a class="filter__btn" href="#">Выбрать период &nbsp;<img src="img/icon-calendar.png" alt=""></a></div>
+              </div>
+              <div class="dp">
+                <div class="dp__block">
+                  <div class="dp__head">
+                    <div class="dp__year-pick-title">Начало периода</div>
+                    <div class="dp__year-pick js-select">
+                      <select id="date-year-1">
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="dp__body">
+                    <div class="react-calendar">
+                      <div class="react-calendar__navigation" style="display: flex;">
+                        <button class="react-calendar__navigation__arrow react-calendar__navigation__prev2-button" disabled="" type="button">«</button>
+                        <button class="react-calendar__navigation__arrow react-calendar__navigation__prev-button" disabled="" type="button">‹</button>
+                        <button class="react-calendar__navigation__label" type="button" style="flex-grow: 1;">январь 2018 г.</button>
+                        <button class="react-calendar__navigation__arrow react-calendar__navigation__next-button" type="button">›</button>
+                        <button class="react-calendar__navigation__arrow react-calendar__navigation__next2-button" type="button">»</button>
+                      </div>
+                      <div class="react-calendar__month-view">
+                        <div style="display: flex; align-items: flex-end;"></div>
+                        <div style="flex-grow: 1;">
+                          <div class="react-calendar__month-view__weekdays" style="display: flex;">
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">пн</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">вт</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">ср</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">чт</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">пт</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">сб</div>
+                            <div class="react-calendar__month-view__weekdays__weekday" style="flex-basis: 14.2857%; overflow: hidden;">вс</div>
+                          </div>
+                          <div class="react-calendar__month-view__days" style="display: flex; flex-wrap: wrap;">
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-01T00:00:00.000">1</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-02T00:00:00.000">2</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-03T00:00:00.000">3</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-04T00:00:00.000">4</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-05T00:00:00.000">5</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-06T00:00:00.000">6</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-07T00:00:00.000">7</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-08T00:00:00.000">8</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-09T00:00:00.000">9</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-10T00:00:00.000">10</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-11T00:00:00.000">11</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-12T00:00:00.000">12</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-13T00:00:00.000">13</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-14T00:00:00.000">14</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-15T00:00:00.000">15</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-16T00:00:00.000">16</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-17T00:00:00.000">17</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-18T00:00:00.000">18</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-19T00:00:00.000">19</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-20T00:00:00.000">20</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-21T00:00:00.000">21</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-22T00:00:00.000">22</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-23T00:00:00.000">23</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" disabled="" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-24T00:00:00.000">24</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__tile--active react-calendar__tile--current" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-25T00:00:00.000">25</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-26T00:00:00.000">26</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-27T00:00:00.000">27</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-28T00:00:00.000">28</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-29T00:00:00.000">29</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-30T00:00:00.000">30</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-01-31T00:00:00.000">31</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--neighboringMonth" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-02-01T00:00:00.000">1</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--neighboringMonth" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-02-02T00:00:00.000">2</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-02-03T00:00:00.000">3</time>
+                            </button>
+                            <button class="react-calendar__month-view__days__day react-calendar__tile react-calendar__month-view__days__day--weekend react-calendar__month-view__days__day--neighboringMonth" type="button" style="flex-basis: 14.2857%; overflow: hidden;">
+                              <time datetime="2018-02-04T00:00:00.000">4</time>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dp__block">
+                  <div class="dp__head">
+                    <div class="dp__year-pick-title">Окончание периода</div>
+                    <div class="dp__year-pick js-select">
+                      <select id="date-year-2">
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="dp__body">
+                    <div class="dp__month">
+                      <div class="dp__month-arrow dp__month-arrow--prev"></div>
+                      <div class="dp__month-text">Апрель</div>
+                      <div class="dp__month-arrow dp__month-arrow--next"></div>
+                    </div>
+                    <div class="dp__days-head">
+                      <div class="dp__cell dp__day">Пн</div>
+                      <div class="dp__cell dp__day">Вт</div>
+                      <div class="dp__cell dp__day">Ср</div>
+                      <div class="dp__cell dp__day">Чт</div>
+                      <div class="dp__cell dp__day">Пт</div>
+                      <div class="dp__cell dp__day">Сб</div>
+                      <div class="dp__cell dp__day">Вс</div>
+                    </div>
+                    <div class="dp__days-body">
+                      <div class="dp__cell dp__number dp__number--prev-month"><span>24</span></div>
+                      <div class="dp__cell dp__number dp__number--prev-month"><span>25</span></div>
+                      <div class="dp__cell dp__number dp__number--prev-month"><span>26</span></div>
+                      <div class="dp__cell dp__number dp__number--prev-month"><span>27</span></div>
+                      <div class="dp__cell dp__number dp__number--prev-month"><span>28</span></div>
+                      <div class="dp__cell dp__number"><span>1</span></div>
+                      <div class="dp__cell dp__number"><span>2</span></div>
+                      <div class="dp__cell dp__number"><span>3</span></div>
+                      <div class="dp__cell dp__number"><span>4</span></div>
+                      <div class="dp__cell dp__number dp__number--current"><span>5</span></div>
+                      <div class="dp__cell dp__number"><span>6</span></div>
+                      <div class="dp__cell dp__number dp__number--selected"><span>7</span></div>
+                      <div class="dp__cell dp__number"><span>8</span></div>
+                      <div class="dp__cell dp__number"><span>9</span></div>
+                      <div class="dp__cell dp__number"><span>10</span></div>
+                      <div class="dp__cell dp__number"><span>11</span></div>
+                      <div class="dp__cell dp__number"><span>12</span></div>
+                      <div class="dp__cell dp__number"><span>13</span></div>
+                      <div class="dp__cell dp__number"><span>14</span></div>
+                      <div class="dp__cell dp__number"><span>15</span></div>
+                      <div class="dp__cell dp__number"><span>16</span></div>
+                      <div class="dp__cell dp__number"><span>17</span></div>
+                      <div class="dp__cell dp__number"><span>18</span></div>
+                      <div class="dp__cell dp__number"><span>19</span></div>
+                      <div class="dp__cell dp__number"><span>20</span></div>
+                      <div class="dp__cell dp__number"><span>21</span></div>
+                      <div class="dp__cell dp__number"><span>22</span></div>
+                      <div class="dp__cell dp__number"><span>23</span></div>
+                      <div class="dp__cell dp__number"><span>24</span></div>
+                      <div class="dp__cell dp__number"><span>25</span></div>
+                      <div class="dp__cell dp__number"><span>26</span></div>
+                      <div class="dp__cell dp__number"><span>27</span></div>
+                      <div class="dp__cell dp__number"><span>28</span></div>
+                      <div class="dp__cell dp__number dp__number--next-month"><span>1</span></div>
+                      <div class="dp__cell dp__number dp__number--next-month"><span>2</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dp__result"><a class="dp__close" href="#"></a>
+                  <div class="dp__result-date">
+                    <div class="dp__result-date-title">Дата начала</div>
+                    <div class="dp__result-date-date">05.04.2016</div>
+                  </div>
+                  <div class="dp__result-date">
+                    <div class="dp__result-date-title">Дата окончания</div>
+                    <div class="dp__result-date-date">05.04.2016</div>
+                  </div>
+                  <button class="btn btn-primary btn-lg">Готово</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-3">
+            <nav class="nav-private">
+              <ul>
+                <li><a class="nav-private__link nav-private__link--user-card" href="private-1.html"><span>Личный кабинет</span></a></li>
+                <li><a class="nav-private__link nav-private__link--pacman" href="private-2.html"><span>Моя игра</span><span class="badge badge-warning">2</span></a></li>
+                <li><a class="nav-private__link nav-private__link--card" href="private-3.html"><span>Привязать карту «Тройка»</span></a></li>
+                <li><a class="nav-private__link nav-private__link--mask" href="private-4.html"><span>Личные данные</span></a></li>
+                <li class="active"><a class="nav-private__link nav-private__link--clock" href="private-5.html"><span>История операций</span></a></li>
+                <li><a class="nav-private__link nav-private__link--support" href="private-6.html"><span>Служба поддержки</span></a></li>
+                <li><a class="nav-private__link nav-private__link--settings" href="private-7.html"><span>Настройки</span></a></li>
+                <li><a class="nav-private__link nav-private__link--exit" href="private-8.html"><span>Выйти</span></a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xs-12 col-md-9">
+            <table class="table table-custom history">
+              <thead>
+                <tr>
+                  <td><i class="circle circle--success"></i></td>
+                  <td>№</td>
+                  <td>Дата и время</td>
+                  <td>Название бренда</td>
+                  <td>Сумма покупки</td>
+                  <td>Жетоны</td>
+                  <td>Списано</td>
+                  <td>Начислено</td>
+                </tr>
+                <tr> 
+                  <td class="history__thead-offset" colspan="8"></td>
+                </tr>
+              </thead>
+              <tbody></tbody>
+              <tr>
+                <td><i class="circle circle--success"></i>
+                </td>
+                <td>117</td>
+                <td>21.08.17 / 20:23</td>
+                <td class="align-top"><span class="history__descr">Бытовая техника</span>
+                  <h5 class="history__title">М.Видео</h5>
+                </td>
+                <td> <span class="history__price">1021.49 <span>руб.</span></span></td>
+                <td><span class="coin">100</span>
+                </td>
+                <td>
+                </td>
+                <td>+100
+                </td>
+              </tr>
+              <tr>
+                <td><i class="circle circle--warning"></i>
+                </td>
+                <td>117</td>
+                <td>21.08.17 / 20:23</td>
+                <td class="align-top"><span class="history__descr">Бытовая техника</span>
+                  <h5 class="history__title">М.Видео</h5>
+                </td>
+                <td> <span class="history__price">1021.49 <span>руб.</span></span></td>
+                <td><span class="coin">100</span>
+                </td>
+                <td>
+                </td>
+                <td>+100
+                </td>
+              </tr>
+              <tr>
+                <td><i class="circle circle--danger"></i>
+                </td>
+                <td>117</td>
+                <td>21.08.17 / 20:23</td>
+                <td class="align-top"><span class="history__descr">Бытовая техника</span>
+                  <h5 class="history__title">М.Видео</h5>
+                </td>
+                <td> <span class="history__price">1021.49 <span>руб.</span></span></td>
+                <td><span class="coin">100</span>
+                </td>
+                <td>
+                </td>
+                <td>+100
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo"><img src="img/logo-footer.png" alt="">
+            <p class="footer__copy">
+              Программа <br>
+              лояльности <br>
+              «Город» <br>
+              &copy; 2017
+            </p>
+          </div>
+          <div class="footer__menu">
+            <ul>
+              <li><a href="#">О Программе «Город»</a></li>
+              <li><a href="#">Правила Программы</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+              <li><a href="#">Стать Партнером</a></li>
+              <li><a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <div class="footer__support">
+            <div>Служба поддержки:</div>
+            <div class="footer__support-phone">+7 (495) 123-3300</div>
+            <div class="footer__support-email">contact@troika-gorod.ru</div>
+            <div class="footer__logo-metro"><img src="img/icon-metro-footer.png" alt=""></div>
+          </div>
+          <div class="footer__apps">
+            <div class="footer__apps-links"><a href="#"><img src="img/app-store.png" alt=""></a><a href="#"><img src="img/google-play.png" alt=""></a></div>
+            <p>
+               Установите бесплатное приложение <br>
+              «Город» прямо сейчас
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal modal-auth fade" id="modal-auth">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Войти в &laquo;Город&raquo;</h4>
+            <div class="modal-subtitle">Для регистрации или авторизации введите свой номер телефона</div>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="+7 (XXX) XXX-XX-XX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <div class="form-notify form-notify--warning">Номер телефона может состоять только из 10 цифр</div>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label input-group--error">
+                  <label>Это неверный пароль:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p><a href="#">Я забыл пароль</a></p>
+              </div>
+            </form>
+            <form action="">
+              <div class="form-group">
+                <div class="input-group input-group--is-label">
+                  <label>Введите код из SMS:</label>
+                  <input class="form-control" type="text" placeholder="XXXX"><span class="input-group-btn">
+                    <button class="btn btn-lg btn-primary" type="submit">Войти</button></span>
+                </div>
+                <p class="text-muted">Берегитесь мошенников. Никому не сообщайте SMS-код или пароль.</p>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <p class="text-muted">Нажимая кнопку «Войти», вы соглашаетесь с условиями <a href="#" target="_blank">оферты</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-default fade" id="modal-not-lost-bonus">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">Как не потерять Бонусы —</h4>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>
+                <p><span class="bold">Авторизуйтесь в Личном кабинете перед покупкой</span></p>
+                <p>Перед покупкой обязательно авторизуйтесь в Личном кабинете Программы лояльности «Город» и переходите в магазин по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li>
+                <p><span class="bold">Не сохраняйте товары в Корзине без Авторизации в Личном кабинете</span></p>
+                <p>Не откладывайте товары в Корзину до того, как не пройдете авторизацию в Личном кабинете Программы лояльности «Город» и перейдете на сайт магазина по ссылке через раздел «Партнеры».</p>
+              </li>
+              <li> 
+                <p><span class="bold">Не отключайте поддержку Cookies</span></p>
+                <p>Если у Вас отключена функция поддержки Cookies, её необходимо подключить перед Авторизацией в Программе «Город» и совершением покупки. </p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+              <li>
+                <p><span class="bold">Совершайте покупку, не откладывая</span></p>
+                <p>Бонусы начисляются только в случае самостоятельной покупки на сайте. При оформлении заказа по телефону с помощью консультанта бонусы не начисляются.</p>
+              </li>
+            </ol>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/app.js"></script><script type="text/javascript" src="js/private.js"></script></body>
+</html>
