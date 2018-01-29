@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<section class="top-line">
+		<div class="container">
+			<div class="row flex-row">
+				<div class="col-xs-12 col-md-9">
+					<nav class="nav-top">
+						<ul class="nav">
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Почему мы</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Услуги</a></li>
+						</ul>
+					</nav>
+
+					<div class="flex-row flex-row--justify flex-row--vcenter">
+						<a class="logo" href="/">СЕПТИК+</a>
+						<div class="flex-row flex-row--vcenter">
+							<div class="job-time">
+								ПН-ВС с 10:00 до 20:00
+							</div>
+							<form action="" class="search-top">
+								<input class="form-control" type="text" name="q" placeholder="Поиск по сайту">
+								<button type="submit">
+									<img src="img/icon-search.png" alt="">
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3">
+					<div class="top-line__contacts">
+						<a class="top-line__phone" href="callto:8 (800) 456-65-88">8 (800) 456-65-88</a>
+						<a class="top-line__link" href="#modal-callback" data-toggle="modal">Заказать обратный звонок</a>
+						<a class="top-line__link" href="#modal-specialist" data-toggle="modal">Заказать выезд специалиста</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section class="home-slider bg-lighten-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <img src="img/home-septic-1.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h1 class="home-slider__title">
+                    Лучшие очистные
+                    сооружения в одном
+                    месте
+                </h1>
+                <div class="home-slider__tags">
+                    <span class="tag tag--default">Реализация</span>
+                    <span class="tag tag--default">Монтаж</span>
+                    <span class="tag tag--default">Ремонт</span>
+                    <span class="tag tag--default">Консультация</span>
+                    <span class="tag tag--default">Обслуживание</span>
+                </div>
+                <p class="home-slider__descr">
+                    Полный спектр услуг по доступным ценам.
+                    Качественно, оперативно, не дорого
+                </p>
+                <a href="#modal-consult" data-toggle="modal" class="btn btn-primary btn-lg">Получить консультацию</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-lighten-grey pb-x8">
+    <div class="container">
+        <img width="100%" src="img/sale-block.jpg" alt="Скидка на 25% по кодовому слову Листопад. Срок действия до 31 октября">
+    </div>
+</section>
+
+<section class="catalog-sections">
+    <div class="container">
+        <h2>Каталог продукции <a href="#" class="btn btn-danger h-link">Смотреть всю</a></h2>
+        <div class="row flex-row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-1.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Станции биологической очистки</div>
+                        <div class="catalog-sections__descr">Станции биологической очистки для частного дома.</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-2.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Септики</div>
+                        <div class="catalog-sections__descr">Здесь - лучшая цена на установку септика на даче.</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-3.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Кессоны</div>
+                        <div class="catalog-sections__descr">Кессоны по лучшей цене с доставкой и установкой на участке.</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-4.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Пластиковые погреба</div>
+                        <div class="catalog-sections__descr">Дренажная система вокруг частного дома</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-5.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Дренаж</div>
+                        <div class="catalog-sections__descr">Станции биологической очистки для частного дома.</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="#" class="catalog-sections__item">
+                    <img class="catalog-sections__image" src="img/catalog-item-6.jpg" alt="">
+                    <div class="catalog-sections__body">
+                        <div class="catalog-sections__title">Насосы</div>
+                        <div class="catalog-sections__descr">дренажные насосы, погружные насосы, фекальные насосы с измельчителем</div>
+                    </div>
+                    <span class="catalog-sections__more">
+                        <img src="{$template_url}build/img/icon-arrow-right-black.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="call-me">
+    <div class="container">
+        <div class="row flex-row flex-row--vcenter">
+            <div class="col-xs-12 col-md-6">
+                <div class="call-me__title">
+                    Вам нужен комплексный
+                    подход?
+                </div>
+                <div class="call-me__descr">
+                    Оставьте Ваши контактные данные и наши специалисты 
+                    подберут для Вас лучшее решение, а также предоставят 
+                    скидку 10% на все работы.
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 col-md-offset-3">
+                <form action="">
+                    <div class="form-group">
+                        <input name="fullname" type="text" class="form-control input-lg text-center" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input name="phone" type="text" class="form-control input-lg text-center" placeholder="Ваш номер телефона">
+                    </div>
+                    <div>
+                        <button class="btn btn-danger btn-lg btn-block" type="submit">
+                            Позвоните мне
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-products">
+    <div class="container">
+        <h2>Наша продукция <a href="#" class="btn btn-danger h-link">Смотреть всю</a></h2>
+        <div class="row flex-row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="our-products__item">
+                    <a href="#">
+                        <img src="img/septic-item-1.png" alt="" class="our-products__image">
+                    </a>
+                    <div class="our-products__title">
+                        <a href="#">Юнилос Астра 3 (h=2 м)</a>
+                    </div>
+                    <div class="our-products__price">350 000 <i class="fa fa-rub"></i></div>
+                    <a href="#" class="btn btn-primary btn-lg">Заказать</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="our-products__item">
+                    <a href="#">
+                        <img src="img/septic-item-1.png" alt="" class="our-products__image">
+                    </a>
+                    <div class="our-products__title">
+                        <a href="#">Юнилос Астра 3 (h=2 м)</a>
+                    </div>
+                    <div class="our-products__price">350 000 <i class="fa fa-rub"></i></div>
+                    <a href="#" class="btn btn-primary btn-lg">Заказать</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="our-products__item">
+                    <a href="#">
+                        <img src="img/septic-item-1.png" alt="" class="our-products__image">
+                    </a>
+                    <div class="our-products__title">
+                        <a href="#">Юнилос Астра 3 (h=2 м)</a>
+                    </div>
+                    <div class="our-products__price">350 000 <i class="fa fa-rub"></i></div>
+                    <a href="#" class="btn btn-primary btn-lg">Заказать</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="our-products__item">
+                    <a href="#">
+                        <img src="img/septic-item-1.png" alt="" class="our-products__image">
+                    </a>
+                    <div class="our-products__title">
+                        <a href="#">Юнилос Астра 3 (h=2 м)</a>
+                    </div>
+                    <div class="our-products__price">350 000 <i class="fa fa-rub"></i></div>
+                    <a href="#" class="btn btn-primary btn-lg">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <h2>Осуществление работ "под ключ" <a href="#" class="btn btn-danger h-link">Смотреть все услуги</a></h2>
+        <p class="services__descr">
+            Мы приверженцы закрытого цикла работ. И потому можем осуществить все возможные <br>
+            промежуточные работы на любом проекте
+        </p>
+
+        <div class="row flex-row">
+            <div class="col-xs-12 col-md-4">
+                <div class="services__item">
+                    <img src="img/icon-list.png" alt="" class="services__item-image">
+                    <div class="services__item-title">Профессиональный подбор<br> оборудования</div>
+                    <p class="services__item-descr">
+                        Окажем консультационные услуги силами высококвалифицированных специалистов, подберем необходимое оборудование, поможем сэкономить.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="services__item">
+                    <img src="img/icon-architect.png" alt="" class="services__item-image">
+                    <div class="services__item-title">Монтаж оборудования<br> в частном доме</div>
+                    <p class="services__item-descr">
+                        Качественный монтаж оборудования в загородном доме и на участке с гарантией на установку. Более семи лет опыта на рынке и профессиональные инженеры.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="services__item">
+                    <img src="img/icon-joint.png" alt="" class="services__item-image">
+                    <div class="services__item-title">Проектирование<br> любой сложности</div>
+                    <p class="services__item-descr">
+                        Занимаемся разработкой профессиональных проектов по всем нормам и правилам. У нас можно заказать проект системы отопления для частного дома или водоснабжения для дачи.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services__order">
+            <div class="row flex-row flex-row--vcenter">
+                <div class="col-xs-12 col-md-6">
+                    <strong class="text-success">
+                        Воспользуйтесь уникальным предложением<br>
+                        со скидкой в 10% заказав проект "Под ключ"
+                    </strong>
+                </div>
+                <div class="col-xs-12 col-md-2 text-center">
+                    <img src="img/icon-arrow-right-white.png" alt="">
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <a href="#modal-order-full" data-toggle="modal" class="btn btn-primary btn-lg btn-block">
+                        Заказать проект "Под ключ"
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="seo-text">
+    <div class="container">
+        <div class="row flex-row">
+            <div class="col-xs-12 col-md-7 flex-row flex-row--vjustify">
+                <h2>
+                    Компания Септик+ один из лидеров
+                    в таком то регионе
+                </h2>
+                <p>
+                    Мы специализируемся на установке и обслуживании дачной канализации (септики и станции биологической очистки), монтаже отопления в загородном доме под ключ, а также на водоподведении и водоотводе в частном доме.
+                </p>
+                <p>
+                    Только профессиональный монтаж качественного оригинального оборудования, устанавливаемый опытными инженерами. Компания Загород уже более семи лет на рынке инженерных коммуникаций и имеет четыре представительства в разных городах России.
+                </p>
+                <p>
+                    Мы можем предложить Вам самые привлекательные условия по доставке оборудования до участка. Мы даем гарантии на оборудование и на установку, а также производим сервисное обслуживание нашего оборудования.
+                </p>
+                <div>
+                    <a class="text-success text-underline" href="#">
+                        <strong>Узнать больше о нашей компании</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-md-offset-1">
+                <h2>
+                    Горячие новости
+                </h2>
+                <div class="news-short">
+                    <div class="news-short__item" style="background-image: url('img/news-item-1.jpg');">
+                        <div class="news-short__title">
+                            Заголовок новости в одну-две строки максимум в
+                            три строки
+                        </div>
+                        <div class="news-short__date">
+                            10.12.2017
+                        </div>
+                        <a class="news-short__more" href="#">
+                            <img src="img/icon-arrow-right-black.png" alt="">
+                        </a>
+                    </div>
+                    <div class="news-short__item" style="background-image: url('img/news-item-2.jpg');">
+                        <div class="news-short__title">
+                            Заголовок новости в одну-две строки максимум в
+                            три строки
+                        </div>
+                        <div class="news-short__date">
+                            10.12.2017
+                        </div>
+                        <a class="news-short__more" href="#">
+                            <img src="img/icon-arrow-right-black.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-danger">Все новости</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pluso">
+    <div class="container">
+        <h2>Так почему же лучше сотрудничать с нами</h2>
+        <div class="row flex-row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="pluso__item">
+                    <div class="pluso__image"><img src="img/icon-thumbup-1.png" alt=""></div>
+                    <p class="pluso__descr">
+                        Сервисное обслуживание<br> в течение всего срока службы оборудования
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="pluso__item">
+                    <div class="pluso__image"><img src="img/icon-thumbup-2.png" alt=""></div>
+                    <p class="pluso__descr">
+                        Профессиональный монтаж<br> оборудования под ключ
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="pluso__item">
+                    <div class="pluso__image"><img src="img/icon-thumbup-3.png" alt=""></div>
+                    <p class="pluso__descr">
+                        Самые привлекательные<br> условия доставки
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="pluso__item">
+                    <div class="pluso__image"><img src="img/icon-thumbup-4.png" alt=""></div>
+                    <p class="pluso__descr">
+                        Гарантия 12 месяцев на работы<br> и 36 месяцев на оборудование
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="container">
+        <div class="owl-carousel" data-items="5" data-timeout="5000">
+            <div class="partners__item">
+                <img src="img/partner-1.png" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="img/partner-2.png" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="img/partner-3.png" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="img/partner-4.png" alt="">
+            </div>
+            <div class="partners__item">
+                <img src="img/partner-5.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+
+<section class="articles-short">
+		<div class="container">
+			<h2>Полезная информация <a href="#" class="btn btn-danger h-link">Изучить все материалы</a></h2>
+	
+			<div class="row flex-row">
+				<div class="col-xs-12 col-md-4">
+					<div class="articles-short__item">
+						<img class="" src="img/article-item-1.jpg" alt="">
+						<div class="articles-short__body">
+							<div class="articles-short__title">
+								Заголовок новости в одну две строки максимум в три строки
+							</div>
+							<div class="articles-short__descr">
+								Сервисное обслуживание в течение всего срока службы оборудования Сервисное обслуживание в течение всего срока службы оборудования
+							</div>
+							<div class="articles-short__date">
+								10.12.2017
+							</div>
+							<a href="#" class="articles-short__more">
+								<img src="img/icon-arrow-right-black.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="articles-short__item">
+						<img class="" src="img/article-item-2.jpg" alt="">
+						<div class="articles-short__body">
+							<div class="articles-short__title">
+								Заголовок новости в одну две строки максимум в три строки
+							</div>
+							<div class="articles-short__descr">
+								Сервисное обслуживание в течение всего срока службы оборудования Сервисное обслуживание в течение всего срока службы оборудования
+							</div>
+							<div class="articles-short__date">
+								10.12.2017
+							</div>
+							<a href="#" class="articles-short__more">
+								<img src="img/icon-arrow-right-black.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="articles-short__item">
+						<img class="" src="img/article-item-3.jpg" alt="">
+						<div class="articles-short__body">
+							<div class="articles-short__title">
+								Заголовок новости в одну две строки максимум в три строки
+							</div>
+							<div class="articles-short__descr">
+								Сервисное обслуживание в течение всего срока службы оборудования Сервисное обслуживание в течение всего срока службы оборудования
+							</div>
+							<div class="articles-short__date">
+								10.12.2017
+							</div>
+							<a href="#" class="articles-short__more">
+								<img src="img/icon-arrow-right-black.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="videos-short">
+		<div class="container">
+			<h2>Видеоматериалы <a href="#" class="btn btn-danger h-link">Смотреть все</a></h2>
+			<div class="row flex-row">
+				<div class="col-xs-12 col-md-6">
+					<div class="videos-short__item">
+						<a href="#">
+							<img src="img/video-item-1.jpg" alt="" class="videos-short__image">
+						</a>
+						<div class="videos-short__title">Заголовок новости в одну  две строки максимум в три строки</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="videos-short__item">
+						<a href="#">
+							<img src="img/video-item-1.jpg" alt="" class="videos-short__image">
+						</a>
+						<div class="videos-short__title">Заголовок новости в одну  две строки максимум в три строки</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="last-questions">
+		<div class="container">
+			<div class="row flex-row flex-row--vcenter">
+				<div class="col-xs-12 col-md-8">
+					<div class="last-questions__title">
+						Остались вопросы? Или не хотите терять время,
+						а заказать уже сейчас? Оставьте Ваши данные и
+						наш специалист свяжется с Вами в течении 10 минут
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-3 col-md-offset-1">
+					<form action="">
+						<div class="form-group">
+							<input class="form-control input-lg text-center" name="fullname" type="text" placeholder="Ваш номер телефона">
+						</div>
+						<div>
+							<button class="btn btn-danger btn-lg btn-block" type="submit">Позвоните мне</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top-line">
+				<div class="footer__logo">
+					<a href="/">СЕПТИК+</a>
+				</div>
+				<div class="footer__copy">
+					&copy; Copyright 2017. Септик +.<br>
+					Все права защищены
+				</div>
+				<div class="footer__job-time">
+					ПН-ВС с 10:00 до 20:00
+				</div>
+				<form action="" class="search-top">
+					<input class="form-control" type="text" name="q" placeholder="Поиск по сайту">
+					<button type="submit">
+						<img src="img/icon-search.png" alt="">
+					</button>
+				</form>
+				<div class="footer__contacts">
+					<a class="footer__contacts-phone" href="callto:8 (800) 456-65-88">8 (800) 456-65-88</a>
+					<a class="footer__contacts-link" href="#modal-callback" data-toggle="modal">Заказать обратный звонок</a>
+				</div>
+			</div>
+			<div class="footer__navs">
+				<div class="row flex-row">
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<nav class="nav-footer">
+							<ul>
+								<li><a href="#">Каталог</a></li>
+								<li><a href="#">Наши работы</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Акции</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<nav class="nav-footer">
+							<ul>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Преимущества</a></li>
+								<li><a href="#">Подбор оборудования</a></li>
+								<li><a href="#">Монтаж оборудования</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2">
+						<nav class="nav-footer">
+							<ul>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Почему мы</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-1 col-md-offset-2">
+						<div class="footer__socials">
+							<a href="#"><i class="fa fa-vk"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-youtube"></i></a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-3">
+						<p>
+							г. Краснодар, ул. Промышленная 1а.<br>
+							e-mail: septik@sample.com<br>
+							ОГРН: 654566546 564654<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__text">
+				Установка глубокой биологической очистки Genesis применяется для локальной очистки хозяйственно-бытовых и сточных вод. Данный процесс проводится без использования химических и биологических компонентов. Работа установки основана на запатентованных теУстановка глубокой биологической очистки Genesis применяется для локальной очистки хозяйственно-бытовых и сточных вод. Данный процесс проводится без использования химических и биологических компонентов. Работа установки основана на запатентованных те...
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
