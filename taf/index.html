@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 
@@ -13,7 +12,7 @@
 <body>
 
 <header class="header">
-  <div class="top-line">
+  <div class="top-line" data-sticky>
     <div class="container">
       <div class="d-flex align-items-center justify-content-between">
         <div class="top-line__logo">
@@ -23,13 +22,13 @@
         </div>
         <div class="top-line__menu">
           <ul class="nav nav-top">
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Преимущества</a></li>
-            <li><a href="#">Автопарк</a></li>
-            <li><a href="#">Направление перевозок</a></li>
-            <li><a href="#">Схема работы</a></li>
-            <li><a href="#">Цены</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#pluso">Преимущества</a></li>
+            <li><a href="#autopark">Автопарк</a></li>
+            <li><a href="#map">Направление перевозок</a></li>
+            <li><a href="#scheme">Схема работы</a></li>
+            <li><a href="#prices">Цены</a></li>
+            <li><a href="#contacts">Контакты</a></li>
           </ul>
         </div>
       </div>
@@ -184,7 +183,7 @@
   </div>
 </section>
 
-<section class="pluso">
+<section id="pluso" class="pluso">
   <div class="container">
     <h2 class="pluso__title wow bounceIn">
       <span>Преимущества</span>
@@ -294,7 +293,7 @@
   </div>
 </section>
 
-<section class="autopark">
+<section id="autopark" class="autopark">
   <div class="container">
     <h2 class="autopark__title wow bounceIn">Наш автопарк</h2>
     <div class="autopark__item autopark__item--s1 wow rotateIn">
@@ -328,7 +327,7 @@
   </div>
 </section>
 
-<section class="map">
+<section id="map" class="map">
   <div class="container">
     <h2 class="map__title wow bounceIn">Направления<br> перевозок</h2>
   </div>
@@ -395,7 +394,7 @@
   </div>
 </section>
 
-<section class="scheme">
+<section id="scheme" class="scheme">
   <div class="container">
     <h2 class="scheme__title wow bounceIn">Схема работы</h2>
     <div class="row">
@@ -443,7 +442,7 @@
   </div>
 </section>
 
-<section class="prices">
+<section id="prices" class="prices">
   <div class="container">
     <h2 class="prices__title wow bounceIn">Цены</h2>
     <div class="prices__container wow bounceInUp">
@@ -526,7 +525,7 @@
   </div>
 </section>
 
-<footer class="footer">
+<footer id="contacts" class="footer">
   <div class="container">
     <div class="row row--nospacing">
       <div class="col-6 wow fadeInLeftBig">
@@ -567,6 +566,57 @@
     </div>
   </div>
 </footer>
+
+<div id="modal-consult" class="modal fade">
+  <form class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Заказ консультации</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <input class="form-control" type="text" name="fullname" placeholder="Ваше имя">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="phone" placeholder="Ваш телефон">
+        </div>
+        <div>
+          <input class="form-control" type="email" name="email" placeholder="Электронная почта">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="modal-order" class="modal fade">
+  <form class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Заказ услуги</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <input class="form-control" type="text" name="fullname" placeholder="Ваше имя">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="phone" placeholder="Ваш телефон">
+        </div>
+        <div>
+          <input class="form-control" type="email" name="email" placeholder="Электронная почта">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </form>
+</div>
+
 
 	
 	<script src="js/main.js"></script>
