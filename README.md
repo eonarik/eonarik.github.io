@@ -6,4 +6,5 @@
   <li><a href="taf">taf</a></li>
   <li><a href="tnt-ulica">tnt-ulica</a></li>
   <li><a href="troika-gorod">troika-gorod</a></li>
+  <li><a href="mover">mover</a></li>
 </ul>
