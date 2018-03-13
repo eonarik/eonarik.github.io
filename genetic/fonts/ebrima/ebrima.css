@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Ebrima";
+  font-weight: 400;
+  src: url("./Ebrima.eot"); /* IE9*/
+  src: url("./Ebrima.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./Ebrima.woff2") format("woff2"), /* chrome、firefox */
+  url("./Ebrima.woff") format("woff"), /* chrome、firefox */
+  url("./Ebrima.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./Ebrima.svg#Ebrima") format("svg"); /* iOS 4.1- */
+}
+@font-face {
+  font-family: "Ebrima";
+  font-weight: 600;
+  src: url("./Ebrima Negreta.eot"); /* IE9*/
+  src: url("./Ebrima Negreta.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("./Ebrima Negreta.woff2") format("woff2"), /* chrome、firefox */
+  url("./Ebrima Negreta.woff") format("woff"), /* chrome、firefox */
+  url("./Ebrima Negreta.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("./Ebrima Negreta.svg#Ebrima Negreta") format("svg"); /* iOS 4.1- */
+}
