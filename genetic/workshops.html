@@ -38,6 +38,17 @@
 
 		<nav class="header__nav" data-sticky>
 			<div class="container">
+				<div class="header__nav__buter">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="header__nav__home">
+					<a href="/"><i class="fa fa-home"></i> Home</a>
+				</div>
+				<div class="header__nav__auth">
+					<a href="#"><i class="fa fa-user-o"></i></a>
+				</div>
 				<ul class="nav nav-header">
 					<li>
 						<a href="#">Conference <i class="fa fa-chevron-down"></i></a>
@@ -118,49 +129,51 @@
   <div class="container">
     <h4>The following educational workshops
       <br /> will be held at the Meeting</h4>
-    <p class="mb-x4">
+    <p class="mb-x4 d-flex justify-content-end">
       <a href="#" target="_blank" class="btn btn-icon btn-icon--download btn-icon--right">Detailed schedule of workshops and the topics which will be covered can be downloaded here</a>
     </p>
 
-    <table class="table">
+    <table class="table table--responsive">
       <thead>
         <tr>
-          <td width="80">No.</td>
-          <td>Topic</td>
+          <td width="80" class="hidden-xs">No.</td>
+          <td class="table__heading">Topic</td>
           <td width="275">Organizers</td>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>Forensic reasoning</td>
-          <td>Dr Andrei Semikhodskii and tbc</td>
+          <td class="hidden-xs">1</td>
+          <td class="table__heading">Forensic reasoning</td>
+          <td>Dr Andrei Semikhodskii</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td>Parentage and Kinship Analysis</td>
-          <td>Dr Andreas Tilmar and Dr Daniel King
+          <td class="hidden-xs">2</td>
+          <td class="table__heading">Parentage and Kinship Analysis</td>
+          <td>Dr Andreas Tilmar and Dr Daniel King</td>
+        </tr>
+        <tr>
+          <td class="hidden-xs">3</td>
+          <td class="table__heading">Mixture Analysis</td>
+          <td>Prof Klaas Slooten</td>
+        </tr>
+        <tr>
+          <td class="hidden-xs">4</td>
+          <td class="table__heading">Forensic Use of Non-Autosomal DNA markers</td>
+          <td>Dr Martin Bodner</td>
+        </tr>
+        <tr>
+          <td class="hidden-xs">5</td>
+          <td class="table__heading">DNA Phenotyping, Determination of the Age and Tissue Source</td>
+          <td>
+            Dr Jeppe Andersen and
+            <br>Dr Marie-Louise Kampmann
           </td>
         </tr>
         <tr>
-          <td>3</td>
-          <td>Mixture Analysis</td>
-          <td>tbc</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Forensic Use of Non-Autosomal DNA markers</td>
-          <td>tbc</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>DNA Phenotyping, Determination of the Age and Tissue Source</td>
-          <td>Dr Jeppe Andersen and Dr Marie-Louise Kampmann</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>The Use of MPS in Forensic DNA Testing and Kinship Analysis</td>
-          <td>Dr David Ballard and tbc</td>
+          <td class="hidden-xs">6</td>
+          <td class="table__heading">The Use of MPS in Forensic DNA Testing and Kinship Analysis</td>
+          <td>Dr David Ballard</td>
         </tr>
       </tbody>
     </table>
@@ -178,137 +191,52 @@
         </div>
         <div class="accordion__item__content">
           <div class="accordion__item__subtitle">Workshop 1</div>
-          <table class="table table--type2 mb-x4">
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
+                <td width="150" class="table__heading">Topic</td>
                 <td>Forensic reasoning </td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Dr Andrei Semikhodskii (Medical Genomics Ltd, Russia) </td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>14:00 – 18:00 (Coffee Break: 15:30 - 16:00)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Gagarin</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>The workshop will focus on the logic and principles of evidential proof – how evidence is used to prove guilt in the courtroom – hypotheses, frameworks, and place of  DNA evidence among other types of evidence. Topics like logical errors and fallacies In DNA evidence interpretation, and interpretation of various types of DNA evidence will be covered in depth.</td>
               </tr>
             </tbody>
           </table>
           <div class="accordion__item__subtitle">Workshop 2</div>
-          <table class="table table--type2 mb-x4">
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
+                <td width="150" class="table__heading">Topic</td>
+                <td>Parentage and Kinship Analysis </td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Dr Andreas Tillmar & Dr Daniel King (National Board of Forensic Medicine, Sweden)</td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>14:00 – 18:00 (Coffee Break: 15:30 - 16:00)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Block</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="accordion__item__subtitle">Workshop 3</div>
-          <table class="table table--type2 mb-x4">
-            <tbody>
-              <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
-              </tr>
-              <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
-              </tr>
-              <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
-              </tr>
-              <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>This workshop will focus on the statistical assessment of genetic kinship based on DNA profiling. The workshop will include basic theories and principles on inheritance and likelihood calculations. We will further discuss and show practical examples on how to account for phenomena like mutation, population substructure and genetic linkage. In addition, the workshop will include presentations and practical training of software available for the statistical calculations.</td>
               </tr>
             </tbody>
           </table>
@@ -324,219 +252,103 @@
           </div>
         </div>
         <div class="accordion__item__content">
-          <div class="accordion__item__subtitle">Workshop 1</div>
-          <table class="table table--type2 mb-x4">
+          <div class="accordion__item__subtitle">Workshop 3</div>
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
+                <td width="150" class="table__heading">Topic</td>
+                <td>Mixture Analysis</td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Prof Klaas Slooten (Vrije Universiteit, The Netherlands)</td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>09:00 – 13:00 (Coffee Break: 11:00 - 11:30)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Gagarin</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>Major concepts and the different approaches to DNA mixture deconvolution will be discussed, including approaches to deconvolution of complex mixtures. How different models work and what to expect from them will be explained as well as the difficulties associated with the number of contributors and other factors affecting mixture interpretation.</td>
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
-
-      <div class="accordion__item">
-        <div class="accordion__item__header">
-          <div class="accordion__item__title">September 14 (Fri)</div>
-          <div class="accordion__item__arrow accordion__item__arrow--down">
-            <i class="fa fa-arrow-circle-down"></i>
-            <i class="fa fa-arrow-circle-up"></i>
-          </div>
-        </div>
-        <div class="accordion__item__content">
-          <div class="accordion__item__subtitle">Workshop 1</div>
-          <table class="table table--type2 mb-x4">
+          <div class="accordion__item__subtitle">Workshop 4</div>
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
+                <td width="150" class="table__heading">Topic</td>
+                <td>Forensic Use of Non-Autosomal DNA markers</td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Dr Martin Bodner (Medizinische Universität Innsbruck, Austria)</td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>09:00 – 13:00 (Coffee Break: 11:00 - 11:30)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Block</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>Forensic analysis of non-linear DNA markers (Y-STR and mtDNA) will be the main topic of this workshop. How and when non-linear markers are used in forensic identification and approaches to evaluating DNA evidence obtained from them will be covered.</td>
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
-
-      <div class="accordion__item">
-        <div class="accordion__item__header">
-          <div class="accordion__item__title">September 15 (Sat)</div>
-          <div class="accordion__item__arrow accordion__item__arrow--down">
-            <i class="fa fa-arrow-circle-down"></i>
-            <i class="fa fa-arrow-circle-up"></i>
-          </div>
-        </div>
-        <div class="accordion__item__content">
-          <div class="accordion__item__subtitle">Workshop 1</div>
-          <table class="table table--type2 mb-x4">
+          <div class="accordion__item__subtitle">Workshop 5</div>
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
+                <td width="150" class="table__heading">Topic</td>
+                <td>DNA Phenotyping, Determination of the Age and Tissue Source</td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Dr Jeppe Andersen & Dr Marie-Louise Kampmann (University of Copenhagen, Denmark)</td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>14:00 – 18:00 (Coffee Break: 15:30 - 16:00)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Gagarin</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>The workshop will discuss methods to determine externally visible characteristics, concentrating on which traits are suitable and which are not and also on establishing the biological age of the donor and the tissue source of the biological material. The main discussion points will be eye- and hair colour prediction, skin colour and ancestry prediction, age prediction and whether it is tissue dependent and tissue-specific markers. Assessing the weight of evidence (LR or probabilities) of these novel approaches will be also covered in the workshop</td>
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
-
-      <div class="accordion__item">
-        <div class="accordion__item__header">
-          <div class="accordion__item__title">September 16 (Sun)</div>
-          <div class="accordion__item__arrow accordion__item__arrow--down">
-            <i class="fa fa-arrow-circle-down"></i>
-            <i class="fa fa-arrow-circle-up"></i>
-          </div>
-        </div>
-        <div class="accordion__item__content">
-          <div class="accordion__item__subtitle">Workshop 1</div>
-          <table class="table table--type2 mb-x4">
+          <div class="accordion__item__subtitle">Workshop 6</div>
+          <table class="table table--type2 table--responsive mb-x4">
             <tbody>
               <tr>
-                <td width="150">Topic</td>
-                <td>Forensic reasoning </td>
+                <td width="150" class="table__heading">Topic</td>
+                <td>The Use of MPS in Forensic DNA Testing and  Kinship Analysis</td>
               </tr>
               <tr>
-                <td>Organizer(s)</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Organizer(s)</td>
+                <td>Dr David Ballard (Kings College London, UK) </td>
               </tr>
               <tr>
-                <td>Presenters</td>
-                <td>Dr Andrei Semikhodskii and tbc</td>
+                <td class="table__heading">Time</td>
+                <td>14:00 – 18:00 (Coffee Break: 15:30 - 16:00)</td>
               </tr>
               <tr>
-                <td>Type</td>
-                <td>Hands on (Seating capacity : 50)</td>
+                <td class="table__heading">Location</td>
+                <td>Lecture hall Gagarin</td>
               </tr>
               <tr>
-                <td>Time</td>
-                <td>09:00 - 18:00 (Coffee Break : 11:00 - 11:30 / 16:00 - 16:30)</td>
-              </tr>
-              <tr>
-                <td>Location</td>
-                <td>Conference Room South 301A (3F, Coex)</td>
-              </tr>
-              <tr>
-                <td>Description</td>
-                <td>This workshop will introduce the principles behind mixture interpretation using the most up-to -date methods
-                  that are currently available. The likelihood ratio method will be described and participants will be shown
-                  how to formulate propositions. The principles of mixture interpretation where there is drop-out and drop-in
-                  will be described. Then the guidelines of the ISFG DNA commission on the evaluation of mixtures and software
-                  validation will be discussed. Two different free open-source software will be demonstrated: LRmix Studio
-                  <a href="//lrmixstudio.org/" target="_blank" class="text-underline">http://lrmixstudio.org/</a> and EuroForMix
-                  <a href="//euroformix.org/" target="_blank" class="text-underline">http://www.euroformix.com/</a>. The former is a qualitative model, whereas the latter is quantitative,
-                  taking account of peak height, stutter and degradation to formulate the likelihood ratio. Both are fully
-                  validated according to the ISFG DNA Commission recommendations. The differences between the two software,
-                  the expected trends as well as statement writing will be discussed. Finally, there will be practical demonstration
-                  of the models. Participants are expected to bring their own laptops and to download the necessary software
-                  so that they can run exercises and analyse their own cases. At the end of the workshop participants will
-                  be proficient in both software approaches.</td>
+                <td class="table__heading">Description</td>
+                <td>The workshop will be dealing with technologies currently available to MPS analyse DNA samples and how they can be best implemented for forensic and kinship analysis. Advantages of MPS over currently available technologies will be discussed</td>
               </tr>
             </tbody>
           </table>
@@ -549,40 +361,62 @@
 
 <section class="present-text"></section>
 
-	<footer class="footer">
+<footer class="footer">
+	<div class="container">
+		<h2 class="section-title">Contact us</h2>
+		<div class="footer__title">
+			ESWG 2018 Meeting in
+			<nobr>St Petersburg</nobr>
+		</div>
+		<div class="footer__links">
+			<div class="footer__link">
+				<span class="footer__link__title">Organizing Committee:</span>
+				<span class="footer__link__value">
+					<a class="text-underline" href="mailto:andrei@medicalgenomics.ru">andrei@medicalgenomics.ru</a>
+				</span>
+			</div>
+			<div class="footer__link">
+				<span class="footer__link__title">General manager:</span>
+				<span class="footer__link__value">
+					<a class="text-underline" href="mailto:gm@eswg2018.org">gm@eswg2018.org</a>
+				</span>
+			</div>
+			<div class="footer__link">
+				<span class="footer__link__title">Registration manager:</span>
+				<span class="footer__link__value">
+					<a class="text-underline" href="mailto:rm@eswg2018.org">rm@eswg2018.org</a>
+				</span>
+			</div>
+			<div class="footer__link">
+				<span class="footer__link__title">Visa support:</span>
+				<span class="footer__link__value">
+					<a class="text-underline" href="mailto:visa@eswg2018.org">visa@eswg2018.org</a>
+				</span>
+			</div>
+		</div>
+		<div class="footer__social">
+			<a href="#">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-linkedin"></i>
+			</a>
+			<a href="#">
+				<i class="fa fa-twitter"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="footer__line">
 		<div class="container">
-			<h2 class="section-title">Contact us</h2>
-			<div class="footer__title">
-				ESWG 2018 Meeting in St Petersburg
-			</div>
-			<div class="footer__links">
-				<div>Organizing Committee: <a class="text-underline" href="mailto:andrei@medicalgenomics.ru">andrei@medicalgenomics.ru</a></div>
-				<div>General manager: <a class="text-underline" href="mailto:gm@eswg2018.org">gm@eswg2018.org</a></div>
-				<div>Registration manager: <a class="text-underline" href="mailto:rm@eswg2018.org">rm@eswg2018.org</a></div>
-				<div>Visa support: <a class="text-underline" href="mailto:visa@eswg2018.org">visa@eswg2018.org</a></div>
-			</div>
-			<div class="footer__social">
-				<a href="#">
-					<i class="fa fa-facebook"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				<a href="#">
-					<i class="fa fa-twitter"></i>
-				</a>
-			</div>
+			© Medical Genomics Ltd 2018. <nobr>All rights reserved</nobr>
 		</div>
+	</div>
+</footer>
 
-		<div class="footer__line">
-			<div class="container">
-					© Medical Genomics Ltd  2018. All rights reserved
-			</div>
-		</div>
-	</footer>
+<div class="to-top"></div>
 
-	<div class="to-top"></div>
-
-	<script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
+
 </html>
