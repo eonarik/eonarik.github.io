@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header class="header-line" data-sticky>
+		<div class="container">
+			<div class="header-line__wrap">
+				<label for="header-line-nav-toggle" class="header-line__buter">
+					<img src="img/icon-menu-red.svg" data-alt-src="img/close.svg" alt="" />
+				</label>
+				<div class="header-line__logo">
+					<a href="/">
+						<img src="img/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="header-line__phone" data-target="#modal-callback" data-toggle="modal">
+					<img src="img/icon-phone-red.svg" alt="" />
+				</div>
+				<input id="header-line-nav-toggle" type="checkbox">
+				<nav class="header-line__nav">
+					<ul class="nav nav-top">
+						<li class="active">
+							<a href="#section-about">О нас</a>
+						</li>
+						<li>
+							<a href="#section-payment">Стоимость</a>
+						</li>
+						<li>
+							<a href="#section-pack">Упаковка</a>
+						</li>
+						<li>
+							<a href="#section-reviews">Отзывы</a>
+						</li>
+						<li>
+							<a href="#section-faq">FAQ</a>
+						</li>
+						<li>
+							<a href="#section-contacts">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-line__buttons">
+					<a href="#modal-oplatit-online" data-toggle="modal" class="btn btn-sm btn-primary">Оплатить онлайн</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__wrap">
+      <div class="row">
+        <div class="col-12 col-lg-7 col-xl-5">
+          <div class="hero__title">
+            Освободите место
+            <br />
+            <span class="text-primary">для жизни</span>
+          </div>
+          <div class="hero__descr">
+            Все, что забирает ваше пространство, может безопасно храниться в URBANBOX
+          </div>
+          <div class="row hero__buttons">
+            <div class="col-12 col-sm-6">
+              <a href="#modal-oplatit-online" data-toggle="modal" class="btn btn-primary btn-shadow btn-block">Освободить</a>
+            </div>
+            <div class="col-12 col-sm-6">
+              <a href="#section-payment" class="btn btn-default btn-shadow btn-block">Стоимость хранения</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="section-about" class="landingItem who">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7 col-xl-6">
+        <h2>Что такое
+          <span class="text-primary">Urbanbox?</span>
+        </h2>
+        <p>
+          URBAN BOX это современный склад для хранения личных вещей и бизнес-имущества. В аренду предлагаются
+          индивидуальные боксы
+          площадью от 1 до 15 квадратных метров. Территория склада находится под круглосуточной охраной и
+          видеонаблюдением.
+          Каждый бокс оборудован охранной и противопожарной сигнализацией. Во всех помещениях поддерживается
+          оптимальная
+          температура и влажность. Бокс доступен для вас круглосуточно.
+        </p>
+      </div>
+      <div class="col-12 col-lg-5 col-xl-6">
+        <img src="img/why-urban.jpg" alt="" class="img-rounded" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pluso">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-lg-3">
+        <div class="pluso__item">
+          <div class="pluso__item__icon">
+            <img src="img/icon-price-tag.svg" alt="">
+          </div>
+          <div class="pluso__item__descr">
+            <b class="text-primary">Цены</b> ниже
+            <br /> конкурентов
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="pluso__item">
+          <div class="pluso__item__icon">
+            <img src="img/icon-location-2-check.svg" alt="">
+          </div>
+          <div class="pluso__item__descr">
+            <b class="text-primary">В 5 минутах</b>
+            <br /> от метро Кутузовская
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="pluso__item">
+          <div class="pluso__item__icon">
+            <img src="img/icon-24-7-support-1.svg" alt="">
+          </div>
+          <div class="pluso__item__descr">
+            Доступ к складу
+            <br />
+            <b class="text-primary">24/7</b>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="pluso__item">
+          <div class="pluso__item__icon">
+            <img src="img/icon-security-camera.svg" alt="">
+          </div>
+          <div class="pluso__item__descr">
+            Ваши вещи
+            <br />
+            <b class="text-primary">в безопасности</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="section-payment" class="landingItem calculator">
+  <div class="container">
+    <form action="">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-7 col-xl-6">
+          <h2>Стоимость хранения</h2>
+          <div class="form-group">
+            <div class="calculator__label">Выберите срок хранения</div>
+            <div class="text-center mb-x2">
+              <b id="calc-range-1-label">1 нед</b>
+            </div>
+            <div class="mb-x8">
+              <input name="keep-weeks" class="form-range" id="calc-range-1" type="range" data-label="#calc-range-1-label"
+                data-label-type="years" min="1" max="48" step="1" data-min="1" data-max="48" data-step="1" value="1" />
+              <div class="calculator__steps">
+                <div class="calculator__steps__item" data-value="1">1 нед</div>
+                <div class="calculator__steps__item" data-value="12">3 мес</div>
+                <div class="calculator__steps__item" data-value="24">6 мес</div>
+                <div class="calculator__steps__item" data-value="48">1 год</div>
+              </div>
+            </div>
+            <div class="calculator__label">Выберите площадь бокса</div>
+            <div class="text-center mb-x2">
+              <b id="calc-range-2-label">1 м<sup>2</sup></b>
+            </div>
+            <div class="mb-x8">
+              <input name="box-volume" class="form-range" id="calc-range-2" type="range" data-label="#calc-range-2-label"
+                data-label-type="square" min="1" max="16" step=".5" data-min="1" data-max="16" data-step="0.5" value="1" />
+              <div class="calculator__steps">
+                <div class="calculator__steps__item" data-value="1">1 м2</div>
+                <div class="calculator__steps__item" data-value="4">4 м2</div>
+                <div class="calculator__steps__item" data-value="8">8 м2</div>
+                <div class="calculator__steps__item" data-value="16">16 м2</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="calculator__descr" data-values="1,2">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br /> 1-2m3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.
+            </div>
+            <div class="calculator__descr" data-values="2,4">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br /> 2-4m3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.
+            </div>
+            <div class="calculator__descr" data-values="4,8">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br />4-8m3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.
+            </div>
+            <div class="calculator__descr" data-values="8,12">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br /> 8-12m3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.
+            </div>
+            <div class="calculator__descr" data-values="12,16">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br /> 12-16m3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.
+            </div>
+            <div class="calculator__descr" data-values="16">
+              <b>В бокс такого размера вы сможете разместить:</b>
+              <br /> Шкаф 4-створчатый, кресло, тумба, шины, велосипед, холодильник, сноуборд, стелаж с коробками
+            </div>
+          </div>
+          <!-- <img src="img/keep-price-2.jpg" alt="" class="img-rounded calculator__img2" /> -->
+          <div class="calculator__summ">
+            <div class="calculator__label">
+              <span class="text-primary">Стоимость</span> хранения</div>
+            <div class="calculator__summ__price">
+              <input type="hidden" name="summ" value="0" />
+              <span class="calculator__summ__number">0</span>
+              <span class="calculator__summ__descr"></span>
+            </div>
+          </div>
+          <div class="calculator__buttons">
+            <button type="submit" class="btn btn-primary btn-shadow mr-x4">Сдать вещи</button>
+            <a href="#" class="btn btn-default btn-shadow">Где находятся боксы?</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 col-xl-6">
+          <img class="calculator__img" data-values="1,2" src="img/shadow-0.png" alt="" />
+          <img class="calculator__img" data-values="2,4" src="img/shadow-1.png" alt="" />
+          <img class="calculator__img" data-values="4,8" src="img/shadow-2.png" alt="" />
+          <img class="calculator__img" data-values="8,12" src="img/shadow-3.png" alt="" />
+          <img class="calculator__img" data-values="12,16" src="img/shadow-4.png" alt="" />
+          <img class="calculator__img" data-values="16" src="img/shadow-5.png" alt="" />
+          <!-- <img src="img/keep-price.jpg" alt="" class="img-rounded calculator__img" /> -->
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script>
+  // calculator options, use before main scripts
+  var CALC_OPTIONS = {
+    discounts: [
+      {
+        minMonths: 3,
+        value: 3,
+      },
+      {
+        minMonths: 6,
+        value: 6,
+      },
+      {
+        minMonths: 11,
+        value: 11,
+      },
+    ],
+    stavkaMonth: 15000,
+    stavkaWeek: 25000,
+  }
+</script>
+
+<section class="arenda">
+  <div class="container">
+    <h2>У нас часто
+      <span class="text-primary">арендуют</span>
+    </h2>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="#modal-bookbox" data-toggle="modal" class="arenda__item">
+          <img src="img/arenda-1.jpg" alt="" class="arenda__item__img" />
+          <div class="arenda__item__body">
+            <div class="arenda__item__title">
+              <span>UrbanГараж</span>
+              <span>4м
+                <sup>2</sup>
+              </span>
+            </div>
+            <div class="arenda__item__descr">
+              Велосипед, коляска, самокат, и вся королевская конница,и вся королевская знать
+            </div>
+            <div class="arenda__item__link">
+              Арендовать бокс
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="#modal-bookbox" data-toggle="modal" class="arenda__item">
+          <img src="img/arenda-2.jpg" alt="" class="arenda__item__img" />
+          <div class="arenda__item__body">
+            <div class="arenda__item__title">
+              <span>UrbanГараж</span>
+              <span>4м
+                <sup>2</sup>
+              </span>
+            </div>
+            <div class="arenda__item__descr">
+              Велосипед, коляска, самокат, и вся королевская конница,и вся королевская знать
+            </div>
+            <div class="arenda__item__link">
+              Арендовать бокс
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="#modal-bookbox" data-toggle="modal" class="arenda__item">
+          <img src="img/arenda-3.jpg" alt="" class="arenda__item__img" />
+          <div class="arenda__item__body">
+            <div class="arenda__item__title">
+              <span>UrbanГараж</span>
+              <span>4м
+                <sup>2</sup>
+              </span>
+            </div>
+            <div class="arenda__item__descr">
+              Велосипед, коляска, самокат, и вся королевская конница,и вся королевская знать
+            </div>
+            <div class="arenda__item__link">
+              Арендовать бокс
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="#modal-bookbox" data-toggle="modal" class="arenda__item">
+          <img src="img/arenda-4.jpg" alt="" class="arenda__item__img" />
+          <div class="arenda__item__body">
+            <div class="arenda__item__title">
+              <span>UrbanГараж</span>
+              <span>4м
+                <sup>2</sup>
+              </span>
+            </div>
+            <div class="arenda__item__descr">
+              Велосипед, коляска, самокат, и вся королевская конница,и вся королевская знать
+            </div>
+            <div class="arenda__item__link">
+              Арендовать бокс
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="box-gallery">
+  <div class="container">
+    <h2>Как
+      <span class="text-primary">выглядят</span> боксы</h2>
+    <div class="owl-carousel" data-items="4" data-items-xs="2" data-margin="30" data-dots>
+      <a href="img/box-1.jpg" data-fancybox="box-gallery">
+        <img src="img/box-1.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-2.jpg" data-fancybox="box-gallery">
+        <img src="img/box-2.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-3.jpg" data-fancybox="box-gallery">
+        <img src="img/box-3.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-4.jpg" data-fancybox="box-gallery">
+        <img src="img/box-4.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-5.jpg" data-fancybox="box-gallery">
+        <img src="img/box-5.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-3.jpg" data-fancybox="box-gallery">
+        <img src="img/box-3.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-4.jpg" data-fancybox="box-gallery">
+        <img src="img/box-4.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-5.jpg" data-fancybox="box-gallery">
+        <img src="img/box-5.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+      <a href="img/box-3.jpg" data-fancybox="box-gallery">
+        <img src="img/box-3.jpg" class="box-gallery__img img-rounded" alt="">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="section-pack" class="landingItem packing">
+  <div class="container">
+    <h2>Не забудьте про
+      <span class="text-primary">упаковку</span>
+    </h2>
+    <div class="row mb-x6">
+      <div class="col-12 col-sm-5 col-md-3">
+        <p>
+          Мы рекомендуем нашим клиентам упаковывать вещи перед отправкой на склад. В зависимости от типа вещей может
+          потребовать разное
+          количество и тип упаковки
+        </p>
+      </div>
+      <div class="col-12 col-sm-7 col-md-9">
+        <div class="owl-carousel" data-items="3" data-items-xs="2" data-margin="30" data-dots>
+          <div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+            <div class="packing__item">
+              <div class="packing__item__icon">
+                <img src="img/icon-lenta.png" alt="">
+              </div>
+              <div class="packing__item__body">
+                <div class="packing__item__title">
+                  Липкая лента
+                </div>
+                <div class="packing__item__descr">
+                  Надежно склеит ваши вещи между собой
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="#modal-callback" data-toggle="modal" class="btn btn-primary btn-shadow">Перезвоните мне</a>
+    </div>
+  </div>
+</section>
+
+<section id="section-reviews" class="landingItem reviews">
+  <div class="container">
+    <h2>Отзывы о работе с нами</h2>
+    <div class="owl-carousel" data-items="4" data-margin="30" data-dots>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item__avatar">
+          <img src="img/avatar-1.png" alt="">
+        </div>
+        <div class="reviews__item__author">Иван Петрович</div>
+        <div class="reviews__item__author-descr">Домохозяин</div>
+        <div class="reviews__item__text">
+          Это просто прекрасный сервис, который позволил освободить балкон от шин, лыж и прочего хлама. Теперь мы с
+          женой пьем кофе
+          по утрам на балконе.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="section-faq" class="landingItem faq">
+  <div class="container">
+    <h2>Вопросы и ответы</h2>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+      </div>
+      <div class="col-12 col-md-6">
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+        <label class="faq__item">
+          <input type="checkbox" name="faq" />
+          <div class="faq__item__label">Какие вы даете гарантии?</div>
+          <div class="faq__item__text">И днем и ночью на страже ваших вещей и спокойствия ответственный, бескорыстный и
+            честный Саня Бородач. Вы можете
+            не беспокоиться за их сохранность!</div>
+        </label>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="#" class="btn btn-primary btn-shadow">Задать свой вопрос</a>
+    </div>
+  </div>
+</section>
+
+<section id="section-contacts" class="landingItem contacts">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h2>Наши контакты</h2>
+        <ul class="lkv">
+          <li class="lkv__item">
+            <span class="lkv__item__key">Адрес</span>
+            <span class="lkv__item__value">м. Кунцевская, ул. Ивана Франко 8к2</span>
+          </li>
+          <li class="lkv__item">
+            <span class="lkv__item__key">Телефон</span>
+            <span class="lkv__item__value">+7 495 555 55 55</span>
+          </li>
+          <li class="lkv__item">
+            <span class="lkv__item__key">Эл. почта</span>
+            <span class="lkv__item__value">
+              <a href="mailto:info@urbanfox.ru">info@urbanfox.ru</a>
+            </span>
+          </li>
+        </ul>
+
+        <form action="" name="contact-form">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <input id="contact-form-name" name="name" type="text" class="form-control" placeholder="Имя" />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="form-group">
+                <input id="contact-form-phone" name="phone" type="text" class="form-control" placeholder="Телефон" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea id="contact-form-text" name="text" class="form-control" rows="4" placeholder="Сообщение"></textarea>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <button class="btn btn-primary btn-shadow btn-block" type="submit">Отправить сообщение</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="contacts__map">
+          <img src="img/map.jpg" width="100%" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-12 col-md-6 col-xl-3">
+				<div class="footer__logo">
+					<a href="/">
+						<img src="img/logo.png" alt="" />
+					</a>
+				</div>
+				<p class="footer__descr">
+					Copyright &copy; 2018
+				</p>
+				<p class="footer__social">
+					<a href="#"><i class="fa fa-vk"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-2">
+				<ul class="footer__menu list-unstyled">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Стоимость</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-4">
+				<h3 class="footer__title">Документы</h3>
+				<ul class="footer__menu list-unstyled">
+					<li><a href="#">Форма договора аренды для физических лиц</a></li>
+					<li><a href="#">Форма договора аренды для физических лиц</a></li>
+					<li><a href="#">Cтандартные условия хранения</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-3">
+				<h3 class="footer__title">Контакты</h3>
+				<ul class="footer__menu list-unstyled">
+					<li><span>г. Москва, ул. Баумана 32</span></li>
+					<li><span>+7 495 555 55 55</span></li>
+					<li><span>info@urbanbox.ru</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="modal-oplatit-online" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="payment" action="" class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Оплатить онлайн</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="email" class="form-control" placeholder="Номер договора *" />
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="payment-pay-card" checked value="Yes">
+						<label class="custom-control-label" for="payment-pay-card">Оплатить банковской картой</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Арендовать</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="modal-callback" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="callback" action="" class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Оставьте контакты</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="callback-agree" checked value="Yes">
+						<label class="custom-control-label" for="callback-agree">C
+							<a href="#">политкой конфиденциальности</a> ознакомлен</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Позвоните мне</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="modal-bookbox" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="callback" action="" class="modal-content">
+			<input type="hidden" name="keep-months" value="" />
+			<input type="hidden" name="box-volume" value="" />
+			<input type="hidden" name="summ" value="" />
+
+			<div class="modal-header">
+				<h4 class="modal-title">Забронируйте бокс</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="callback-agree" checked value="Yes">
+						<label class="custom-control-label" for="callback-agree">C
+							<a href="#">политкой конфиденциальности</a> ознакомлен</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Позвоните мне</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

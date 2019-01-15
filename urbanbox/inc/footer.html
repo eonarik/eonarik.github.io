@@ -1,0 +1,165 @@
+<footer class="footer">
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-12 col-md-6 col-xl-3">
+				<div class="footer__logo">
+					<a href="/">
+						<img src="img/logo.png" alt="" />
+					</a>
+				</div>
+				<p class="footer__descr">
+					Copyright &copy; 2018
+				</p>
+				<p class="footer__social">
+					<a href="#"><i class="fa fa-vk"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-2">
+				<ul class="footer__menu list-unstyled">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Стоимость</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-4">
+				<h3 class="footer__title">Документы</h3>
+				<ul class="footer__menu list-unstyled">
+					<li><a href="#">Форма договора аренды для физических лиц</a></li>
+					<li><a href="#">Форма договора аренды для физических лиц</a></li>
+					<li><a href="#">Cтандартные условия хранения</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-xl-3">
+				<h3 class="footer__title">Контакты</h3>
+				<ul class="footer__menu list-unstyled">
+					<li><span>г. Москва, ул. Баумана 32</span></li>
+					<li><span>+7 495 555 55 55</span></li>
+					<li><span>info@urbanbox.ru</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="modal-oplatit-online" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="payment" action="" class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Оплатить онлайн</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="email" class="form-control" placeholder="Номер договора *" />
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="payment-pay-card" checked value="Yes">
+						<label class="custom-control-label" for="payment-pay-card">Оплатить банковской картой</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Арендовать</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="modal-callback" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="callback" action="" class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Оставьте контакты</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="callback-agree" checked value="Yes">
+						<label class="custom-control-label" for="callback-agree">C
+							<a href="#">политкой конфиденциальности</a> ознакомлен</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Позвоните мне</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div id="modal-bookbox" class="modal fade">
+	<div class="modal-dialog modal-sm">
+		<form name="callback" action="" class="modal-content">
+			<input type="hidden" name="keep-months" value="" />
+			<input type="hidden" name="box-volume" value="" />
+			<input type="hidden" name="summ" value="" />
+
+			<div class="modal-header">
+				<h4 class="modal-title">Забронируйте бокс</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<input type="text" name="name" class="form-control" placeholder="Имя *" />
+				</div>
+				<div class="form-group">
+					<input type="text" name="phone" class="form-control" placeholder="Телефон *" />
+				</div>
+				<div class="form-group">
+					<input type="email" name="email" class="form-control" placeholder="Эл. почта *" />
+				</div>
+				<div class="form-group">
+					<small class="text-muted">* поля, обязательные для заполнения</small>
+				</div>
+				<!-- <div class="form-group">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="callback-agree" checked value="Yes">
+						<label class="custom-control-label" for="callback-agree">C
+							<a href="#">политкой конфиденциальности</a> ознакомлен</label>
+					</div>
+				</div> -->
+				<div class="form-group">
+					<button type="button" class="btn btn-primary btn-block btn-shadow">Позвоните мне</button>
+				</div>
+				<div><small>Отправляя данные в форме, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></small></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
