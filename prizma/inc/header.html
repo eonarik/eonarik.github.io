@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-line" data-sticky>
+			<div class="container">
+				<div class="header-line__wrap">
+					<div class="header-line__logo">
+						<a href="/">
+							<img src="img/logo.png" alt="" />
+						</a>
+					</div>
+					<div class="header-line__site-descr">
+						Проектирование, изготовление <br />
+						и монтаж зданий и сооружений
+					</div>
+					<div class="header-line__phones">
+						<div class="header-line__phones__phone">
+							<a href="tel:89229995798">8 (922) 999-57-98</a>
+						</div>
+						<div class="header-line__phones__phone">
+							<a href="tel:89859996938">8 (985) 996-69-38</a>
+						</div>
+					</div>
+					<div class="header-line__btns">
+						<a class="btn btn-block btn-primary" href="#modal-callme" data-toggle="modal">
+							<span>Перезвоните мне</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<h1 class="header__title">
+						<span>Быстровозводимые здания и ангары</span>
+					</h1>
+					<div class="header__descr">
+						<span>
+							Проектирование изготовление металлоконструкций, монтаж.
+							Доставка по России и СНГ.
+						</span>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 d-flex justify-content-end">
+					<form name="order" action="" class="alert alert-primary header__form">
+						<h3 class="alert__title">Оставьте заявку на расчет стоимости</h3>
+						<div class="form-group">
+							<label for="order-name">Представьтесь</label>
+							<input id="order-name" name="name" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-phone">Номер телефона</label>
+							<input id="order-phone" name="phone" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-email">Адрес эл. почты</label>
+							<input id="order-email" name="email" type="email" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-text">Комментарий</label>
+							<textarea id="order-text" name="text" class="form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="row align-items-center">
+								<div class="col-12 col-sm-6 col-xl-7">
+									<button class="btn btn-primary btn-block btn-bordered" type="submit">
+										<span>Отправить</span>
+									</button>
+								</div>
+								<div class="col-12 col-sm-6 col-xl-5">
+									Мы перезвоним в течении 15 минут
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>

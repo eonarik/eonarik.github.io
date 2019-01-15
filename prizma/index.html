@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-line" data-sticky>
+			<div class="container">
+				<div class="header-line__wrap">
+					<div class="header-line__logo">
+						<a href="/">
+							<img src="img/logo.png" alt="" />
+						</a>
+					</div>
+					<div class="header-line__site-descr">
+						Проектирование, изготовление <br />
+						и монтаж зданий и сооружений
+					</div>
+					<div class="header-line__phones">
+						<div class="header-line__phones__phone">
+							<a href="tel:89229995798">8 (922) 999-57-98</a>
+						</div>
+						<div class="header-line__phones__phone">
+							<a href="tel:89859996938">8 (985) 996-69-38</a>
+						</div>
+					</div>
+					<div class="header-line__btns">
+						<a class="btn btn-block btn-primary" href="#modal-callme" data-toggle="modal">
+							<span>Перезвоните мне</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<h1 class="header__title">
+						<span>Быстровозводимые здания и ангары</span>
+					</h1>
+					<div class="header__descr">
+						<span>
+							Проектирование изготовление металлоконструкций, монтаж.
+							Доставка по России и СНГ.
+						</span>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 d-flex justify-content-end">
+					<form name="order" action="" class="alert alert-primary header__form">
+						<h3 class="alert__title">Оставьте заявку на расчет стоимости</h3>
+						<div class="form-group">
+							<label for="order-name">Представьтесь</label>
+							<input id="order-name" name="name" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-phone">Номер телефона</label>
+							<input id="order-phone" name="phone" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-email">Адрес эл. почты</label>
+							<input id="order-email" name="email" type="email" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-text">Комментарий</label>
+							<textarea id="order-text" name="text" class="form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="row align-items-center">
+								<div class="col-12 col-sm-6 col-xl-7">
+									<button class="btn btn-primary btn-block btn-bordered" type="submit">
+										<span>Отправить</span>
+									</button>
+								</div>
+								<div class="col-12 col-sm-6 col-xl-5">
+									Мы перезвоним в течении 15 минут
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section class="why-me">
+    <div class="container">
+        <div class="why-me__wrap">
+            <h3 class="section-title why-me__title">Почему выгодно работать с нами</h3>
+            <div class="why-me__icons">
+                <div class="why-me__icon">
+                    <div class="why-me__icon__icon">
+                        <img src="img/icon-whyme-1.png" alt="">
+                    </div>
+                    <div class="why-me__icon__descr">
+                        Расчет стоимости <br />
+                        в день обращения
+                    </div>
+                </div>
+                <div class="why-me__icon">
+                    <div class="why-me__icon__icon">
+                        <img src="img/icon-whyme-2.png" alt="">
+                    </div>
+                    <div class="why-me__icon__descr">
+                        Опыт произ-ва <br />
+                        с 2013 года
+                    </div>
+                </div>
+                <div class="why-me__icon">
+                    <div class="why-me__icon__icon">
+                        <img src="img/icon-whyme-3.png" alt="">
+                    </div>
+                    <div class="why-me__icon__descr">
+                        Производим <br />
+                        320 тонн/мес
+                    </div>
+                </div>
+                <div class="why-me__icon">
+                    <div class="why-me__icon__icon">
+                        <img src="img/icon-whyme-4.png" alt="">
+                    </div>
+                    <div class="why-me__icon__descr">
+                        Гарантия <br />
+                        60 месяцев
+                    </div>
+                </div>
+                <div class="why-me__icon">
+                    <div class="why-me__icon__icon">
+                        <img src="img/icon-whyme-5.png" alt="">
+                    </div>
+                    <div class="why-me__icon__descr">
+                        Проект — <br />
+                        бесплатно
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <h3 class="section-title">Мы производим</h3>
+
+        <div class="row row--nospacing">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Ангары
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-1.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Промышленные здания
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-2.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Склады
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-3.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Сооружения для животных и птиц
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-4.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Коммерческие здания
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-5.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="products__item">
+                    <div class="products__item__title">
+                        Жилые и общественные здания
+                    </div>
+                    <div class="products__item__image">
+                        <img src="img/product-6.png" alt="" />
+                    </div>
+                    <div class="products__item__footer">
+                        <a class="btn btn-primary" href="#modal-order" data-toggle="modal">
+                            <span>Заказать расчет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-object">
+    <div class="container">
+        <h3 class="section-title our-object__title">Наши объекты</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-1.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                Здание СТО — <b>30х44х9,5 м</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>15,4 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>70 тонн</b>
+                            </li>
+                            <li>
+                                Изготовление МК — <b>4,5 млн руб</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>1,05 млн руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-2.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                Тёплый гараж — <b>14х20х4,5 м</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>3,1 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>21 тонна</b>
+                            </li>
+                            <li>
+                                Изготовление МК — <b>1,3 млн руб</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>315 000 руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-3.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                Администр. здание — <b>12х24х3 м</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>2,9 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>16 тонн</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>16 тонн</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>240 000 руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-4.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                Торговый центр — <b>8х18х9 м</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>3,8 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>12 тонн</b>
+                            </li>
+                            <li>
+                                Изготовление МК — <b>780 000 руб</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>180 000 руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-5.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                ТЦ “Радуга” — <b>300 м², 3 этажа</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>29,6 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>250 тонн</b>
+                            </li>
+                            <li>
+                                Изготовление МК — <b>16,25 млн руб</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>2,5 млн руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="our-object__item">
+                    <div class="our-object__item__image">
+                        <img src="img/our-object-6.jpg" alt="" />
+                    </div>
+                    <div class="our-object__item__footer">
+                        <ul class="our-object__item__params">
+                            <li>
+                                ТЦ “Юбилейный” — <b>800 м², 3 этажа</b>
+                            </li>
+                            <li>
+                                Стоимость объекта — <b>22,3 млн руб</b>
+                            </li>
+                            <li>
+                                Тоннаж МК — <b>185 тонн</b>
+                            </li>
+                            <li>
+                                Изготовление МК — <b>12,02 млн руб</b>
+                            </li>
+                            <li>
+                                Монтаж МК — <b>1,85 млн руб</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pluso">
+    <div class="container">
+        <h3 class="section-title pluso__title">Наши преимущества</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="pluso__item" style="background-image: url('img/icon-pluso-1.png');">
+                    <div class="pluso__item__title">Вы работаете напрямую с производителем</div>
+                    <div class="pluso__item__descr">Нет переплаты посреднику!</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="pluso__item" style="background-image: url('img/icon-pluso-2.png');">
+                    <div class="pluso__item__title">Гарантия cоблюдения сроков</div>
+                    <div class="pluso__item__descr">Сроки входят в оф. договор</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="pluso__item" style="background-image: url('img/icon-pluso-3.png');">
+                    <div class="pluso__item__title">Срочный расчет комм. предложения</div>
+                    <div class="pluso__item__descr">Свяжемся за 15 минут</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="pluso__item" style="background-image: url('img/icon-pluso-4.png');">
+                    <div class="pluso__item__title">Качество подтвержденное сертификатами</div>
+                    <div class="pluso__item__descr">Свой отдел тех. контроля</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="process">
+    <div class="container">
+        <h3 class="section-title process__title">Как мы работаем</h3>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="process__item process__item--1">
+                    <div class="process__item__icon">
+                        <img src="img/icon-process-job-1.png" alt="" />
+                    </div>
+                    <div class="process__item__descr">
+                        Вы оставляете 
+                        заявку или звоните 
+                        нам по телефону
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="process__item process__item--2">
+                    <div class="process__item__icon">
+                        <img src="img/icon-process-job-2.png" alt="" />
+                    </div>
+                    <div class="process__item__descr">
+                        Менеджер 
+                        перезванивает, 
+                        и отвечает на ваши 
+                        вопросы
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="process__item process__item--3">
+                    <div class="process__item__icon">
+                        <img src="img/icon-process-job-3.png" alt="" />
+                    </div>
+                    <div class="process__item__descr">
+                        Мы заключаем
+                        официальный 
+                        договор
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1">
+                <div class="process__item process__item--4">
+                    <div class="process__item__icon">
+                        <img src="img/icon-process-job-4.png" alt="" />
+                    </div>
+                    <div class="process__item__descr">
+                        Мы производим 
+                        конструкции на нашем 
+                        заводе в Кирове
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="process__item process__item--5">
+                    <div class="process__item__icon">
+                        <img src="img/icon-process-job-5.png" alt="" />
+                    </div>
+                    <div class="process__item__descr">
+                        Доставляем 
+                        конструкции
+                        по России и СНГ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <h3 class="section-title">Производство металлоконструкций</h3>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-1.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-1.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-2.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-2.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-3.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-3.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-4.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-4.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-5.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-5.jpg" alt="" />
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a class="gallery__item" href="img/gallery-6.jpg" data-fancybox="gallery">
+                    <img src="img/gallery-6.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="excursia">
+    <div class="container">
+        <h3 class="section-title excursia__title">Экскурсия на завод</h3>
+        <div class="excursia__wrap">
+            <div class="excursia__descr">
+                Мы ждем вас на нашем заводе
+            </div>
+            <div class="excursia__btns">
+                <a class="btn btn-primary" href="#modal-excursia" data-toggle="modal">Заказать экскурсию</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <h3 class="section-title">Отзывы о нас</h3>
+        <div class="reviews__item">
+            <div class="reviews__item__text">
+                Организацией "Призма МК"по договору -подряда выполнялись работы по строительству ТЦ “Юбилейный”Работы были выполнены в соответствии с действующими строительными нормами и правилами, согласно проектной документации и условиям Заказчика ООО “КД”, с надлежащим качеством и в установленный срок. При этом, в ходе работ максимально учитывались пожелания Заказчика, использовались современные строительные материалы и прогрессивные технологии.За время проведения работ организация Группа компаний "Призма МК"проявила себя как высокопрофессиональная компания с наличием квалифицированных кадров, оперативно и качественно решающая поставленные задачи.
+            </div>
+            <div class="reviews__item__author">Директор, Шмыров Андрей Александрович</div>
+        </div>
+        <div class="reviews__item">
+            <div class="reviews__item__text">
+                Наше сотрудничество с "Призма МК"оставило самые благоприятные впечатления. Все задачи, поставленные перед  организацией, были успешно осуществлены. Обязательства, взятые фирмой по договорам изготовления и поставки, были выполнены  в полном объеме.
+            </div>
+            <div class="reviews__item__author">ООО «Хлебная слобода», директор Папырин Владимир Борисович</div>
+        </div>
+        <div class="reviews__item">
+            <div class="reviews__item__text">
+                Заказчиком не было выявлено нарушений при составлении смет и выполнении работ.  Работы выполнены с отставание в 9 дней. Качество работ в целом на 5. Отставание в связи с климатическими условиями.
+            </div>
+            <div class="reviews__item__author">ИП Шанин Алексей Иванович</div>
+        </div>
+        <div class="reviews__item">
+            <div class="reviews__item__text">
+                Строительная компания "Призма МК" при выполнении монтажных работ работ на объектах нашей организации  ООО “МПК” в г.Альметьевск, проявила себя как надежный подрядчик. Работы были выполнены с хорошим качеством и в сроки,  соответствующие договору. Располагая квалифицированными инженерными и рабочими кадрами, строительная компания "Призма МК". обеспечивает  качество и сроки выполнения работ в строгом соответствии с требованиями Заказчика.
+            </div>
+            <div class="reviews__item__author">Генеральный директор ООО «МПК», Галанов Владимир Александрович</div>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="container">
+        <h3 class="section-title">Наши партнеры</h3>
+        <div class="owl-carousel" data-items="7">
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-1.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-2.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-3.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-4.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-5.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-6.jpg" alt="" />
+                </a>
+            </div>
+            <div class="partners__item">
+                <a href="#">
+                    <img src="img/partner-7.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-5 col-lg-6 order-xs-2 order-sm-2">
+					<div class="footer__logo">
+						<a href="/">
+							<img src="img/logo.png" alt="" />
+						</a>
+					</div>
+					<div class="row footer__contacts">
+						<div class="col-12 col-sm-6 col-md-12 col-xl-6">
+							<div class="footer__contact">
+								<p class="footer__contact__name">Юридический адрес:</p>
+								<p class="footer__contact__value">
+									<b>610005 <br />
+									г. Киров, ул МОПРа д. 111А</b>
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-xl-6">
+							<div class="footer__contact">
+								<p class="footer__contact__name">Адрес производства:</p>
+								<p class="footer__contact__value">
+									<b>610007 <br />
+									г. Киров, ул. Лесозаводская, 29</b>
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-xl-6">
+							<div class="footer__contact">
+								<p class="footer__contact__name">Звоните:</p>
+								<p class="footer__contact__value">
+									<b>8 (922) 999-57-98,  8 (985) 996-69-38</b>
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-xl-6">
+							<div class="footer__contact">
+								<p class="footer__contact__name">Пишите:</p>
+								<p class="footer__contact__value">
+									<b>mr.beresnew2016@yandex.ru</b>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-7 col-lg-6 order-xs-1 order-sm-1 d-flex justify-content-end">
+					<form name="order" action="" class="alert alert-primary header__form">
+						<h3 class="alert__title">Оставьте заявку на расчет стоимости</h3>
+						<div class="form-group">
+							<label for="order-name">Представьтесь</label>
+							<input id="order-name" name="name" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-phone">Номер телефона</label>
+							<input id="order-phone" name="phone" type="text" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-email">Адрес эл. почты</label>
+							<input id="order-email" name="email" type="email" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label for="order-text">Комментарий</label>
+							<textarea id="order-text" name="text" class="form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<div class="row align-items-center">
+								<div class="col-12 col-lg-6 col-xl-7">
+									<button class="btn btn-primary btn-block btn-bordered" type="submit">
+										<span>Отправить</span>
+									</button>
+								</div>
+								<div class="col-12 col-lg-6 col-xl-5">
+									Мы перезвоним в течении 15 минут
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="modal-callme" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="alert alert-primary">
+					<button class="alert__close" type="button" data-dismiss="modal"></button>
+					<h3 class="alert__title">
+						Перезвоните мне
+					</h3>
+					<div class="form-group">
+						<label for="order-name">Представьтесь</label>
+						<input id="order-name" name="name" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="order-phone">Номер телефона</label>
+						<input id="order-phone" name="phone" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-7">
+								<button class="btn btn-primary btn-block btn-bordered" type="submit">
+									<span>Отправить</span>
+								</button>
+							</div>
+							<div class="col-12 col-sm-5">
+								Мы перезвоним в течении 15 минут
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-order" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="alert alert-primary">
+					<button class="alert__close" type="button" data-dismiss="modal"></button>
+					<h3 class="alert__title">
+						Заказать расчет
+					</h3>
+					<div class="form-group">
+						<label for="order-name">Представьтесь</label>
+						<input id="order-name" name="name" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="order-phone">Номер телефона</label>
+						<input id="order-phone" name="phone" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-6 col-xl-7">
+								<button class="btn btn-primary btn-block btn-bordered" type="submit">
+									<span>Отправить</span>
+								</button>
+							</div>
+							<div class="col-12 col-sm-6 col-xl-5">
+								Мы перезвоним в течении 15 минут
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-excursia" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form action="" class="alert alert-primary">
+					<button class="alert__close" type="button" data-dismiss="modal"></button>
+					<h3 class="alert__title">
+						Экскурсия <br />
+						на завод
+					</h3>
+					<div class="form-group">
+						<label for="order-name">Представьтесь</label>
+						<input id="order-name" name="name" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="order-phone">Номер телефона</label>
+						<input id="order-phone" name="phone" type="text" class="form-control" />
+					</div>
+					<div class="form-group">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-6 col-xl-7">
+								<button class="btn btn-primary btn-block btn-bordered" type="submit">
+									<span>Отправить</span>
+								</button>
+							</div>
+							<div class="col-12 col-sm-6 col-xl-5">
+								Мы перезвоним в течении 15 минут
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-sanki" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="alert alert-primary">
+					<button class="alert__close" type="button" data-dismiss="modal"></button>
+					<h3 class="alert__title">
+						спасибо! <br />
+						ваша заявка принята
+					</h3>
+					<div class="form-group">
+						<div class="row align-items-center">
+							<div class="col-12 col-sm-6 col-xl-7">
+								<button class="btn btn-primary btn-block btn-bordered" type="button" data-dismiss="modal">
+									<span>Закрыть</span>
+								</button>
+							</div>
+							<div class="col-12 col-sm-6 col-xl-5">
+								Ожидайте звонка нашего менеджера
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+	<script>
+		$('#modal-sanki').modal('show');
+	</script>
+</body>
+</html>
